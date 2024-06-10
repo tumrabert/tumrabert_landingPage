@@ -1,0 +1,86 @@
+// TypeScript interfaces
+interface Intro {
+  name: string;
+  nickname: string;
+  phone: string;
+  email: string;
+  github: string;
+  linkedin: string;
+  location: string;
+  website: string;
+}
+
+interface Certificate {
+  title: string;
+  description: string;
+  url: string;
+}
+
+interface Project {
+  name: string;
+  details: string[];
+  url: string;
+}
+
+interface Technology {
+  section: string;
+  details: string[];
+}
+
+interface WorkExperience {
+  position: string;
+  company: string;
+  url: string;
+  years: string[];
+  details: string[];
+}
+
+interface Education {
+  head: string;
+  details: string;
+  years: string[];
+  GPA: string;
+}
+
+interface Interest {
+  title: string;
+  details: string[];
+}
+
+interface ResumeUrl {
+  sourceLink: string;
+  fullVersion: string;
+}
+
+// React components
+const IntroComponent: React.FC<Intro> = (props) => {
+  // Use props to render the component
+};
+
+const CertificateComponent: React.FC<Certificate> = (props) => {
+  // Use props to render the component
+};
+
+const ProjectComponent: React.FC<Project> = (props) => {
+  // Use props to render the component
+};
+
+const TechnologyComponent: React.FC<Technology> = (props) => {
+  // Use props to render the component
+};
+
+const WorkExperienceComponent: React.FC<WorkExperience> = (props) => {
+  // Use props to render the component
+};
+
+const EducationComponent: React.FC<Education> = (props) => {
+  // Use props to render the component
+};
+
+const InterestComponent: React.FC<Interest> = (props) => {
+  // Use props to render the component
+};
+
+const ResumeUrlComponent: React.FC<ResumeUrl> = (props) => {
+  // Use props to render the component
+};
