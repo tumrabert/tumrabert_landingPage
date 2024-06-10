@@ -1,0 +1,202 @@
+{
+  "intro": {
+    "name": "Tanakit Phentun",
+    "nickname": "Tum",
+    "phone": "+66-80-391-1438",
+    "email": "tum_tanakid@hotmail.com",
+    "github": "tumrabert",
+    "linkedin": "tumrabert",
+    "location": "Bangkok, Thailand",
+    "website": "tumrabert-resume.vercel.app"
+  },
+  "certificates": [
+    {
+      "title": "Google Data Analytics",
+      "description": "Completed the Google Data Analytics Professional Certificate, demonstrating proficiency in data preparation, processing, analysis, and visualization using spreadsheets, SQL, Tableau, and R.",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/VS5ACQJ6DV86"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Swine fat measurement by using computer vision (Senior Project)",
+      "details": [
+        "Designed and implemented an intuitive ReactJS/Next.js interface to simplify swine fat measurement processes.",
+        "Streamlined model performance by carefully cleaning and sourcing data directly from swine production lines."
+      ],
+      "url": "github.com/Jinnapat/betagro-swine-fat-measurement-frontend",
+      "hide": false
+    },
+    {
+      "name": "Wordpress application automation deployment",
+      "details": [
+        "Automated Wordpress website deployment on AWS using Terraform, streamlining infrastructure management."
+      ],
+      "url": "github.com/tumrabert/kaggle_text_multilabel_classification",
+      "hide": false
+    },
+    {
+      "name": "Research Paper Multilable Classification",
+      "details": [
+        "Implemented a multi-label classification system for research papers using traditional and deep learning techniques.",
+        "Explored ways to improve model performance on a small dataset (450 papers), achieving an F1 score of 0.54 and recall of 0.50."
+      ],
+      "url": "github.com/tumrabert/Cloud_Midterm_Project",
+      "hide": false
+    },
+    {
+      "name": "Pizza Hub",
+      "details": [
+        "Optimized ingredient delivery routes for a restaurant chain using Ant Colony Optimization and Kaggle's food delivery dataset."
+      ],
+      "url": "github.com/tumrabert/ACO_restaurant",
+      "hide": false
+    },
+    {
+      "name": "PlayHub",
+      "details": [
+        "Designed and developed a web application using React and TypeScript on NextJS Framework to connect individuals interested in playing board games.",
+        "Led responsibilities in UX/UI design and front-end development"
+      ],
+      "url": "",
+      "hide": false
+    },
+    {
+      "name": "TodoList.com",
+      "details": [
+        "Developed an application aimed at creating To-Do Lists and issuing notifications as deadlines approach.",
+        "Led Frontend responsibilities utilizing HTML, CSS, and JavaScript, followed by hosting it on Firebase."
+      ],
+      "url": "github.com/IamKittitat/Single-Page-Web-for-TodoList",
+      "hide": false
+    },
+    {
+      "name": "THP Dashboard",
+      "details": [
+        "Led frontend development for real-time data visualization using HTML and JavaScript with Grafana after managing data collection from sensors (Temperature, Humidity, and PM2.5) via ESP8266 to Firebase."
+      ],
+      "url": "github.com/tumrabert/THP-Website",
+      "hide": true
+    }
+  ],
+  "technologies": [
+    {
+      "section": "Languages:",
+      "details": [
+        "Python (proficient)",
+        "C",
+        "C++",
+        "SQL",
+        "Node.js",
+        "TypeScript",
+        "React",
+        "Java"
+      ]
+    },
+    {
+      "section": "Frameworks:",
+      "details": [
+        "ReactJS",
+        "NextJS",
+        "Bootstrap"
+      ]
+    },
+    {
+      "section": "Tools:",
+      "details": [
+        "Git",
+        "Terraform",
+        "Docker",
+        "Figma",
+        "Jira",
+        "Jest Unit Test"
+      ]
+    },
+    {
+      "section": "Other:",
+      "details": [
+        "AWS",
+        "Excel",
+        "Strapi"
+      ]
+    }
+  ],
+  "workExperiences": [
+    {
+      "position": "Full Stack Developer Internship",
+      "company": "Ayodia Co.,Ltd",
+      "url": "",
+      "start": "January 2024",
+      "end": "March 2024",
+      "details": [
+        "Customized Strapi CMS (open-source) for internal TTB Bank use, enhancing content management efficiency.",
+        "Applied Git, Agile methodologies, React, and Node.js to deliver robust web solutions.",
+        "Performed unit testing with Jest to ensure code quality and reliability."
+      ]
+    },
+    {
+      "position": "Software Quality Management Internship",
+      "company": "Kasikorn Business-Technology Group (KBTG)",
+      "url": "",
+      "start": "May 2023",
+      "end": "August 2023",
+      "details": [
+        "Utilized LoadRunner to assess application speed, scalability, and stability under diverse conditions, ensuring it met performance standards for an optimal user experience.",
+        "Analyzed the working time of employees in each team to measure task allocation efficiency and ensure appropriate task time management."
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "degree": "B.Eng. Computer Engineering",
+      "university": "Chulalongkorn University, TH.",
+      "start_year": "2020",
+      "end_year": "2024",
+      "GPAX": "3.02"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Areas",
+      "details": [
+        "Coding",
+        "Productivity & Life-hacks",
+        "Blockchain",
+        "Finance & Investment"
+      ]
+    },
+    {
+      "title": "Freetime",
+      "details": [
+        "Video-Creator",
+        "Guitar instrument",
+        "Actor"
+      ]
+    },
+    {
+      "title": "Reading",
+      "details": [
+        "Self-Development",
+        "History",
+        "Biography"
+      ]
+    },
+    {
+      "title": "Music",
+      "details": [
+        "Pop",
+        "Rock",
+        "ลูกทุ่ง"
+      ]
+    },
+    {
+      "title": "Pets",
+      "details": [
+        "I have a chihuahua dog."
+      ]
+    }
+  ],
+  "resumeUrl": {
+    "sourceLink": "https://github.com/narze/resume",
+    "fullVersion": "https://tumrabert-resume.vercel.app/resume"
+  }
+}
