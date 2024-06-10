@@ -7,7 +7,7 @@
     "github": "tumrabert",
     "linkedin": "tumrabert",
     "location": "Bangkok, Thailand",
-    "website": "tumrabert-resume.vercel.app"
+    "website": "tumrabertworld.vercel.app"
   },
   "certificates": [
     {
@@ -196,7 +196,7 @@
     }
   ],
   "resumeUrl": {
-    "sourceLink": "https://github.com/narze/resume",
-    "fullVersion": "https://tumrabert-resume.vercel.app/resume"
+    "sourceLink": "https://github.com/tumrabert/tumrabert_landingPage",
+    "fullVersion": "https://tumrabertworld.vercel.app/resume"
   }
 }
