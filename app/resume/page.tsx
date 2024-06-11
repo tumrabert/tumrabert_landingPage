@@ -1,4 +1,10 @@
 // app/resume/page.tsx
+
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Tumrabert Resume',
+};
 import React, { Suspense } from "react";
 import Header from "../components/Header";
 import Spinner from "../components/Spinner/Spinner";
