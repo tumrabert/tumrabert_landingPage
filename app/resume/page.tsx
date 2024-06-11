@@ -15,7 +15,7 @@ export default function Page() {
   const data = profileData; // Server-side data fetching
 
   return (
-    <div className="bg-white">
+    <div className="bg-white text-black">
       <style lang="postcss">
         {`
           main {
