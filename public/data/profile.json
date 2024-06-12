@@ -12,7 +12,7 @@
   "certificates": [
     {
       "title": "Google Cloud Skill Boost",
-      "description": "Earned multiple badges through Google Cloud Skill Boost, demonstrating proficiency in infrastructure building with Terraform, language processing with ML. Highlights include expertise in AI and machine learning, generative AI with Vertex AI, and baseline infrastructure(GCP) setup.",
+      "description": "Earned multiple badges through Google Cloud Skill Boost, demonstrating proficiency in infrastructure building with Terraform and language processing with ML. Highlights include expertise in AI and machine learning, generative AI with Vertex AI, and baseline infrastructure(GCP) setup.",
       "url": "https://www.cloudskillsboost.google/public_profiles/25d6dcc2-8121-4792-8d28-96a4b71d9dc0"
     },
     {
@@ -25,25 +25,24 @@
     {
       "name": "Android Call Log Creator",
       "details": [
-          "Developed a React Native application using the Expo framework to generate random phone call activities.",
-          "Implemented features allowing users to specify the start and end dates for generating call logs.",
-          "Each generated call activity includes a random duration and a timestamp that falls within the specified date range.",
-              ],
+        "Developed a React Native application using the Expo framework to generate random phone call activities.",
+        "Implemented features allowing users to specify the start and end dates for generating call logs.",
+        "Each generated call activity includes a random duration and a timestamp that falls within the specified date range."
+      ],
       "url": "github.com/tumrabert/android_create_call_log",
       "hide": false
-  },
+    },
     {
       "name": "Data Pipeline for Extracting Engineering Research Data",
       "details": [
-          "Implemented a data pipeline using Python to extract data from Elsevier's Scopus API, focusing on engineering field literatures published after 2023.",
-          "Automated the data extraction and processing workflow using Apache Airflow to ensure timely and efficient data handling.",
-          "Integrated various components to streamline the extraction, transformation, and loading (ETL) process.",
-          "Prepared the extracted data for machine learning model training to derive insights from engineering research literature.",
+        "Implemented a data pipeline using Python to extract data from Elsevier's Scopus API, focusing on engineering field literatures published after 2023.",
+        "Automated the data extraction and processing workflow using Apache Airflow to ensure timely and efficient data handling.",
+        "Integrated various components to streamline the extraction, transformation, and loading (ETL) process.",
+        "Prepared the extracted data for machine learning model training to derive insights from engineering research literature."
       ],
       "url": "github.com/tumrabert/datasci-pipeline",
       "hide": false
-  }
-,  
+    },
     {
       "name": "Swine fat measurement by using computer vision (Senior Project)",
       "details": [
@@ -62,7 +61,7 @@
       "hide": false
     },
     {
-      "name": "Research Paper Multilable Classification",
+      "name": "Research Paper Multilabel Classification",
       "details": [
         "Implemented a multi-label classification system for research papers using traditional and deep learning techniques.",
         "Explored ways to improve model performance on a small dataset (450 papers), achieving an F1 score of 0.54 and recall of 0.50."
@@ -82,7 +81,7 @@
       "name": "PlayHub",
       "details": [
         "Designed and developed a web application using React and TypeScript on NextJS Framework to connect individuals interested in playing board games.",
-        "Led responsibilities in UX/UI design and front-end development"
+        "Led responsibilities in UX/UI design and front-end development."
       ],
       "url": "",
       "hide": false
@@ -95,8 +94,7 @@
       ],
       "url": "github.com/IamKittitat/Single-Page-Web-for-TodoList",
       "hide": false
-    },
-
+    }
   ],
   "technologies": [
     {
@@ -108,7 +106,8 @@
         "SQL",
         "Node.js",
         "TypeScript",
-        "React","React-Native"
+        "React",
+        "React-Native",
         "Java"
       ]
     },
