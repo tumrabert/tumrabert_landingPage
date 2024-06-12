@@ -11,12 +11,39 @@
   },
   "certificates": [
     {
+      "title": "Google Cloud Skill Boost",
+      "description": "Earned multiple badges through Google Cloud Skill Boost, demonstrating proficiency in infrastructure building with Terraform, language processing with ML. Highlights include expertise in AI and machine learning, generative AI with Vertex AI, and baseline infrastructure(GCP) setup.",
+      "url": "https://www.cloudskillsboost.google/public_profiles/25d6dcc2-8121-4792-8d28-96a4b71d9dc0"
+    },
+    {
       "title": "Google Data Analytics",
       "description": "Completed the Google Data Analytics Professional Certificate, demonstrating proficiency in data preparation, processing, analysis, and visualization using spreadsheets, SQL, Tableau, and R.",
       "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/VS5ACQJ6DV86"
     }
   ],
   "projects": [
+    {
+      "name": "Android Call Log Creator",
+      "details": [
+          "Developed a React Native application using the Expo framework to generate random phone call activities.",
+          "Implemented features allowing users to specify the start and end dates for generating call logs.",
+          "Each generated call activity includes a random duration and a timestamp that falls within the specified date range.",
+              ],
+      "url": "github.com/tumrabert/android_create_call_log",
+      "hide": false
+  },
+    {
+      "name": "Data Pipeline for Extracting Engineering Research Data",
+      "details": [
+          "Implemented a data pipeline using Python to extract data from Elsevier's Scopus API, focusing on engineering field literatures published after 2023.",
+          "Automated the data extraction and processing workflow using Apache Airflow to ensure timely and efficient data handling.",
+          "Integrated various components to streamline the extraction, transformation, and loading (ETL) process.",
+          "Prepared the extracted data for machine learning model training to derive insights from engineering research literature.",
+      ],
+      "url": "github.com/tumrabert/datasci-pipeline",
+      "hide": false
+  }
+,  
     {
       "name": "Swine fat measurement by using computer vision (Senior Project)",
       "details": [
@@ -69,14 +96,7 @@
       "url": "github.com/IamKittitat/Single-Page-Web-for-TodoList",
       "hide": false
     },
-    {
-      "name": "THP Dashboard",
-      "details": [
-        "Led frontend development for real-time data visualization using HTML and JavaScript with Grafana after managing data collection from sensors (Temperature, Humidity, and PM2.5) via ESP8266 to Firebase."
-      ],
-      "url": "github.com/tumrabert/THP-Website",
-      "hide": true
-    }
+
   ],
   "technologies": [
     {
@@ -88,7 +108,7 @@
         "SQL",
         "Node.js",
         "TypeScript",
-        "React",
+        "React","React-Native"
         "Java"
       ]
     },
@@ -108,7 +128,8 @@
         "Docker",
         "Figma",
         "Jira",
-        "Jest Unit Test"
+        "Jest Unit Test",
+        "Apache Airflow"
       ]
     },
     {
