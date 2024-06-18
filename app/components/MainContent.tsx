@@ -10,7 +10,6 @@ import Interests from "./Interests";
 
 // Props typing
 interface MainContentProps {
-  id: string;
   data: {
     intro: any;
     technologies: any;
