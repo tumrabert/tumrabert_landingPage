@@ -32,7 +32,7 @@ const Intro: React.FC<IntroProps> = ({ intros }) => {
         <p>{location}</p>
       </div>
 
-      <h2 className="flex-none order-first sm:order-none print:order-none text-4xl sm:text-2xl md:text-3xl lg:text-6xl text-center p-4 print:pt-0">
+      <h2 className="flex-none order-first sm:order-none print:order-none text-4xl sm:text-2xl md:text-3xl lg:text-6xl text-center p-4 print:pt-0 print:text-4xl">
         {name}
         <span className="block -mt-1 text-base lg:text-lg">({nickname})</span>
       </h2>

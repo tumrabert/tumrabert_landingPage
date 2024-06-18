@@ -1,5 +1,5 @@
 import React from "react";
-
+import Title from "./textComponents/Title";
 interface Technology {
   section: string;
   details: string[];
@@ -12,10 +12,7 @@ interface Props {
 const Technologies: React.FC<Props> = ({ technologies }) => {
   return (
     <div>
-      <h2 className="text-2xl print:text-4xl uppercase text-left font-bold">
-        Technologies and Languages
-      </h2>
-      <hr />
+      <Title>Technologies and Languages</Title>
       <ul className="text-left list-disc pl-8 mt-3">
         {technologies.map((tech, index) => (
           <li key={index}>

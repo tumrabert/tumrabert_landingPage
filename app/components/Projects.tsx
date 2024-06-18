@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "./textComponents/Title";
 
 interface Project {
   name: string;
@@ -12,10 +13,7 @@ interface Props {
 const Projects: React.FC<Props> = ({ projects }) => {
   return (
     <div className="projects">
-      <h2 className="text-2xl print:text-4xl uppercase text-left font-bold">
-        Projects
-      </h2>
-      <hr />
+      <Title>Projects</Title>
 
       <ul className="text-left list-disc pl-8 mt-5">
         {projects.map((project, index) => (

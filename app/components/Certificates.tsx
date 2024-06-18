@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "./textComponents/Title";
 
 interface Certificate {
   title: string;
@@ -12,10 +13,7 @@ interface Props {
 const Certificates: React.FC<Props> = ({ certificates }) => {
   return (
     <div className="certificates">
-      <h2 className="text-2xl print:text-4xl uppercase text-left font-bold">
-        Certificates
-      </h2>
-      <hr />
+      <Title>Certificates</Title>
       <ul className="text-left list-disc pl-8 mt-5">
         {certificates.map((certificate, index) => (
           <li key={index}>

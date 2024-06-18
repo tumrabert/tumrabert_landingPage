@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "./textComponents/Title";
 
 interface WorkProps {
   position: string;
@@ -16,11 +17,7 @@ interface Props {
 const Work: React.FC<Props> = ({ workExperiences }) => {
   return (
     <div className="work-experience">
-      <h2 className="text-2xl print:text-4xl uppercase text-left font-bold">
-        Work Experience
-      </h2>
-      <hr />
-
+      <Title>Work Experience</Title>
       {workExperiences.map((work, index) => (
         <>
           <div key={index} className="flex font-bold mb-2 print:mb-1 mt-3">

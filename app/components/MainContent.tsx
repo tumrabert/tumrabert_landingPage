@@ -1,6 +1,4 @@
 // components/MainContent.tsx
-"use client";
-
 import React from "react";
 import Intro from "./Intro";
 import Technologies from "./Tech";
@@ -12,6 +10,7 @@ import Interests from "./Interests";
 
 // Props typing
 interface MainContentProps {
+  id: string;
   data: {
     intro: any;
     technologies: any;
@@ -23,9 +22,13 @@ interface MainContentProps {
   };
 }
 
-const MainContent: React.FC<MainContentProps> = ({ data }) => {
+// MainContent Component
+const MainContent = React.forwardRef<HTMLDivElement, MainContentProps>((props, ref) => {
+  // Destructuring props for cleaner access
+  const { data } = props;
+
   return (
-    <div className="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
+    <div ref={ref} className="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
       <Intro intros={data.intro} />
       <Technologies technologies={data.technologies} />
       <Education educations={data.educations} />
@@ -35,6 +38,6 @@ const MainContent: React.FC<MainContentProps> = ({ data }) => {
       <Interests interests={data.interests} />
     </div>
   );
-};
+});
 
 export default MainContent;

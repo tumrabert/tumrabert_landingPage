@@ -1,22 +1,21 @@
-import React from "react";
+'use client';
+import React, { useState }  from "react";
 import Link from "next/link";
+import {PrintPDF} from "./PrintPDF";
 interface HeaderProps {
   sourceLink: string;
 }
 
 const Header: React.FC<HeaderProps> = ({ sourceLink }) => {
+  const [showPDF, setShowPDF] = useState(false);
+
   const handlePrint = () => {
-    window.print();
+    setShowPDF(true);
   };
   return (
     <>
       <div className="web-only text-center p-4 sm:p-6 bg-red-600 text-white w-screen">
-        <h1 className="text-4xl">Resume</h1>
-        <h3>
-          <a href="#" className="underline text-lg" /*onClick={handlePrint}*/>
-            [Print]
-          </a>
-        </h3>
+        < PrintPDF/>
         <p>
           Printer-friendly standard resume, any HTML tags with{" "}
           <code>web-only</code> CSS class will be hidden on print.

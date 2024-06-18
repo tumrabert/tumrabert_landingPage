@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "./textComponents/Title";
 
 interface EducationProps {
   degree: string;
@@ -14,10 +15,8 @@ interface Props {
 const Education: React.FC<Props> = ({ educations }) => {
   return (
     <div>
-      <h2 className="text-2xl print:text-4xl uppercase text-left font-bold">
-        Education
-      </h2>
-      <hr />
+      <Title>Education</Title>
+      
 
       <ul className="text-left list-disc pl-8 mt-3">
         {educations.map((edu, index) => (

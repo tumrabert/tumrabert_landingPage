@@ -31,3 +31,93 @@ body {
     text-wrap: balance;
   }
 }
+main {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.text-center > * {
+  margin-top: 20px;
+}
+
+section h2 {
+  font-weight: 600; /* Equivalent to @apply font-semibold */
+}
+
+section hr {
+  margin-top: 0;
+  margin-bottom: 8px; /* Adjust according to the equivalent of mb-2 */
+  border-color: darkgrey;
+  height: 3px;
+}
+
+.print-only {
+  display: none;
+}
+
+@media print {
+  * {
+    font-size: 12px; /* Equivalent to @apply text-xs */
+  }
+
+  .print-only {
+    display: block;
+  }
+
+  .web-only {
+    display: none;
+  }
+
+  ul {
+    padding-left: 1.5rem; /* Equivalent to @apply pl-6 */
+  }
+
+  section {
+    margin-top: 8px; /* Equivalent to @apply my-2 */
+    margin-bottom: 8px; /* Equivalent to @apply my-2 */
+  }
+
+  section hr {
+    margin-top: 0;
+    margin-bottom: 4px; /* Adjust according to the equivalent of mb-1 */
+  }
+
+  main {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* CSS */
+.button-54 {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
