@@ -3,6 +3,7 @@ import { Metadata } from 'next';
  
 export const metadata: Metadata = {
   title: 'Tumrabert Resume',
+  description: 'The Resume of Tanakit Phenntun(tumrabert)',
 };
 import React, { Suspense } from "react";
 import Header from "../components/Header";
