@@ -21,7 +21,7 @@ export const PrintPDF = () => {
       <div style={{ display: 'none' }}>
         <MainContent ref={componentRef} data={data} />
       </div>
-      <button class="button-54" role="button" onClick={handlePrint}>Print this out here!</button>
+      <button className="button-54" role="button" onClick={handlePrint}>Print this out here!</button>
     </div>
   );
 };
