@@ -23,10 +23,7 @@ interface MainContentProps {
 }
 
 // MainContent Component
-const MainContent = React.forwardRef<HTMLDivElement, MainContentProps>((props, ref) => {
-  // Destructuring props for cleaner access
-  const { data } = props;
-
+const MainContent: React.ForwardRefRenderFunction<HTMLDivElement, MainContentProps> = ({ data }, ref) => {
   return (
     <div ref={ref} className="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
       <Intro intros={data.intro} />
@@ -38,6 +35,6 @@ const MainContent = React.forwardRef<HTMLDivElement, MainContentProps>((props, r
       <Interests interests={data.interests} />
     </div>
   );
-});
+};
 
-export default MainContent;
+export default React.forwardRef(MainContent);
