@@ -142,6 +142,16 @@
   ],
   "workExperiences": [
     {
+      "position": "System Analyst",
+      "company": "Bank of Thailand",
+      "url": "",
+      "start": "August 2024",
+      "end": "Present",
+      "details": [
+        "Assist in project management, including analyzing and designing detailed systems. Carry out system development, follow the testing plan, and manage implementation and decommissioning plans."
+      ]
+    },
+    {
       "position": "Full Stack Developer Internship",
       "company": "Ayodia Co.,Ltd",
       "url": "",
