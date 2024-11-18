@@ -7,21 +7,21 @@
     "github": "tumrabert",
     "linkedin": "tumrabert",
     "location": "Bangkok, Thailand",
-    "website": "tumrabertworld.vercel.app"
+    "website": "tumrabertworld.vercel.app/resume"
   },
-  "certificates": [
-    {
-      "title": "Google Cloud Skill Boost",
-      "description": "Earned multiple badges through Google Cloud Skill Boost, demonstrating proficiency in infrastructure building with Terraform and language processing with ML. Highlights include expertise in AI and machine learning, generative AI with Vertex AI, and baseline infrastructure(GCP) setup.",
-      "url": "https://www.cloudskillsboost.google/public_profiles/25d6dcc2-8121-4792-8d28-96a4b71d9dc0"
-    },
-    {
-      "title": "Google Data Analytics",
-      "description": "Completed the Google Data Analytics Professional Certificate, demonstrating proficiency in data preparation, processing, analysis, and visualization using spreadsheets, SQL, Tableau, and R.",
-      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/VS5ACQJ6DV86"
-    }
-  ],
+  
   "projects": [
+    {
+      "name": "HaveFun(d)",
+      "details": [
+        "Built for ETHGlobal Bangkok Hackathon competition, HaveFun(d) is an innovative platform designed to simplify fundraising on Web3.",
+        "Developed a seamless integration of Web3 with Web2 payment options, allowing contributors to use their credit cards to support fundraising projects.",
+        "The destination chain for fundraisers is Hedera, ensuring secure and efficient handling of transactions."
+      ],
+      "url": "https://ethglobal.com/showcase/havefun-d-fm3ie",
+      "hide": false
+    }
+    ,
     {
       "name": "Android Call Log Creator",
       "details": [
@@ -30,18 +30,7 @@
         "Each generated call activity includes a random duration and a timestamp that falls within the specified date range."
       ],
       "url": "github.com/tumrabert/android_create_call_log",
-      "hide": false
-    },
-    {
-      "name": "Data Pipeline for Extracting Engineering Research Data",
-      "details": [
-        "Implemented a data pipeline using Python to extract data from Elsevier's Scopus API, focusing on engineering field literatures published after 2023.",
-        "Automated the data extraction and processing workflow using Apache Airflow to ensure timely and efficient data handling.",
-        "Integrated various components to streamline the extraction, transformation, and loading (ETL) process.",
-        "Prepared the extracted data for machine learning model training to derive insights from engineering research literature."
-      ],
-      "url": "github.com/tumrabert/datasci-pipeline",
-      "hide": false
+      "hide": true
     },
     {
       "name": "Swine fat measurement by using computer vision (Senior Project)",
@@ -61,38 +50,12 @@
       "hide": false
     },
     {
-      "name": "Research Paper Multilabel Classification",
-      "details": [
-        "Implemented a multi-label classification system for research papers using traditional and deep learning techniques.",
-        "Explored ways to improve model performance on a small dataset (450 papers), achieving an F1 score of 0.54 and recall of 0.50."
-      ],
-      "url": "github.com/tumrabert/Cloud_Midterm_Project",
-      "hide": false
-    },
-    {
-      "name": "Pizza Hub",
-      "details": [
-        "Optimized ingredient delivery routes for a restaurant chain using Ant Colony Optimization and Kaggle's food delivery dataset."
-      ],
-      "url": "github.com/tumrabert/ACO_restaurant",
-      "hide": false
-    },
-    {
       "name": "PlayHub",
       "details": [
         "Designed and developed a web application using React and TypeScript on NextJS Framework to connect individuals interested in playing board games.",
         "Led responsibilities in UX/UI design and front-end development."
       ],
       "url": "",
-      "hide": false
-    },
-    {
-      "name": "TodoList.com",
-      "details": [
-        "Developed an application aimed at creating To-Do Lists and issuing notifications as deadlines approach.",
-        "Led Frontend responsibilities utilizing HTML, CSS, and JavaScript, followed by hosting it on Firebase."
-      ],
-      "url": "github.com/IamKittitat/Single-Page-Web-for-TodoList",
       "hide": false
     }
   ],
@@ -101,14 +64,11 @@
       "section": "Languages:",
       "details": [
         "Python (proficient)",
-        "C",
-        "C++",
         "SQL",
         "Node.js",
-        "TypeScript",
-        "React",
-        "React-Native",
-        "Java"
+        "JavaScript,TypeScript",
+        "React.js",
+        "Solidity"
       ]
     },
     {
@@ -116,39 +76,42 @@
       "details": [
         "ReactJS",
         "NextJS",
-        "Bootstrap"
+        "ExpressJS"
       ]
     },
     {
       "section": "Tools:",
       "details": [
         "Git",
+        "Postman",
+        "Linux CLI",
         "Terraform",
         "Docker",
         "Figma",
         "Jira",
         "Jest Unit Test",
-        "Apache Airflow"
+        "Apache Airflow",
+        "AWS",
+        "MongoDb"
       ]
     },
     {
-      "section": "Other:",
+      "section": "Languages:",
       "details": [
-        "AWS",
-        "Excel",
-        "Strapi"
+        "English (TOEIC 815)","Native Thai Speaker"
       ]
     }
   ],
   "workExperiences": [
     {
       "position": "System Analyst",
-      "company": "Bank of Thailand",
+      "company": "Bank of Thailand(Thai Central Bank)",
       "url": "",
       "start": "August 2024",
       "end": "Present",
       "details": [
-        "Assist in project management, including analyzing and designing detailed systems. Carry out system development, follow the testing plan, and manage implementation and decommissioning plans."
+        "Assist in project management, including analyzing and designing detailed systems. Carry out system development, follow the testing plan, and manage implementation and decommissioning plans.",
+        "Edit and enhance existing .NET code based on requirements, ensuring functionality aligns with system specifications."
       ]
     },
     {
@@ -178,7 +141,7 @@
   "educations": [
     {
       "degree": "B.Eng. Computer Engineering",
-      "university": "Chulalongkorn University, TH.",
+      "university": "Chulalongkorn University, Bangkok, Thailand",
       "start_year": "2020",
       "end_year": "2024",
       "GPAX": "3.02"
@@ -188,18 +151,19 @@
     {
       "title": "Areas",
       "details": [
-        "Coding",
+        "Backend Development",
+        "Cloud Engineer",
         "Productivity & Life-hacks",
-        "Blockchain",
+        "Blockchain & Web3",
         "Finance & Investment"
       ]
     },
     {
       "title": "Freetime",
       "details": [
-        "Video-Creator",
-        "Guitar instrument",
-        "Actor"
+        "Content Creator",
+        "Podcast",
+        "Guitar instrument"
       ]
     },
     {
@@ -228,5 +192,27 @@
   "resumeUrl": {
     "sourceLink": "https://github.com/tumrabert/tumrabert_landingPage",
     "fullVersion": "https://tumrabertworld.vercel.app/resume"
-  }
+  },
+  "certificates": [
+    {
+      "title": "Google Cloud Skill Boost",
+      "description": "Earned multiple badges through Google Cloud Skill Boost, demonstrating proficiency in infrastructure building with Terraform and language processing with ML. Highlights include expertise in AI and machine learning, generative AI with Vertex AI, and baseline infrastructure (GCP) setup.",
+      "url": "https://www.cloudskillsboost.google/public_profiles/25d6dcc2-8121-4792-8d28-96a4b71d9dc0"
+    },
+    {
+      "title": "Google Data Analytics",
+      "description": "Completed the Google Data Analytics Professional Certificate, demonstrating proficiency in data preparation, processing, analysis, and visualization using spreadsheets, SQL, Tableau, and R.",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/VS5ACQJ6DV86"
+    },
+    {
+      "title": "ETHGlobal Bangkok Hackathon",
+      "description": "Participated in ETHGlobal Bangkok Hackathon competition, building 'HaveFun(d)'—a fundraising platform with Web3 and Web2 integration, utilizing Hedera as the destination chain.",
+      "url": "https://drive.google.com/file/d/1AoAqNElWenAZoqjB3XUxxgtr4EZW95Hj/view?usp=sharing"
+    },
+    {
+      "title": "EthPadThai BootCamp",
+      "description": "Bootcamp for individuals interested in Web3, covering basic blockchain knowledge and programming smart contracts.",
+      "url": "https://drive.google.com/file/d/1nxEf0Gbo_tpr6YGKQt36fbIYNOOqC4-j/view?usp=sharing"
+    }
+  ]
 }
