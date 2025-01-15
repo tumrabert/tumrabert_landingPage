@@ -11,7 +11,7 @@
   },
   "projects": [
     {
-      "name": "HaveFun(d)",
+      "name": "HaveFun(d) (2024)",
       "details": [
         "Built for ETHGlobal Bangkok Hackathon competition, HaveFun(d) is an innovative platform designed to simplify fundraising on Web3.",
         "Developed a seamless integration of Web3 with Web2 payment options, allowing contributors to use their credit cards to support fundraising projects.",
@@ -22,15 +22,23 @@
     }
     ,
     {
-      "name":"Camping booking system(Backend Development)",
+      "name":"Camping booking system(Backend Development) (2024)",
       "details":["This is a project that I developed during my studies in the 'Software Backend Development' subject",
                 "Purpose of this project is to create a camping booking system that allows users to book camping spots and manage their bookings.",
   "Using Node.js, Express.js, and MongoDB, I developed a RESTful API that enables users to create, read, update, and delete bookings and spots."],
       "url":"github.com/tumrabert/Backend_Development_Template",
       "hide":false
     },
+       {
+      "name": "Wordpress application automation deployment (2024)",
+      "details": [
+        "Automated Wordpress website deployment on AWS using Terraform, streamlining infrastructure management."
+      ],
+      "url": "github.com/tumrabert/kaggle_text_multilabel_classification",
+      "hide": false
+    },
     {
-      "name": "Android Call Log Creator",
+      "name": "Android Call Log Creator (2023)",
       "details": [
         "Developed a React Native application using the Expo framework to generate random phone call activities.",
         "Implemented features allowing users to specify the start and end dates for generating call logs.",
@@ -40,7 +48,7 @@
       "hide": true
     },
     {
-      "name": "Swine fat measurement by using computer vision (Senior Project)",
+      "name": "Swine fat measurement by using computer vision (Senior Project) (2023)",
       "details": [
         "Designed and implemented an intuitive ReactJS/Next.js interface to simplify swine fat measurement processes.",
         "Streamlined model performance by carefully cleaning and sourcing data directly from swine production lines."
@@ -49,22 +57,24 @@
       "hide": false
     },
     {
-      "name": "Wordpress application automation deployment",
-      "details": [
-        "Automated Wordpress website deployment on AWS using Terraform, streamlining infrastructure management."
-      ],
-      "url": "github.com/tumrabert/kaggle_text_multilabel_classification",
-      "hide": false
-    },
-    {
-      "name": "PlayHub",
+      "name": "PlayHub (2021)",
       "details": [
         "Designed and developed a web application using React and TypeScript on NextJS Framework to connect individuals interested in playing board games.",
         "Led responsibilities in UX/UI design and front-end development."
       ],
       "url": "",
       "hide": false
-    }
+    },
+    {
+  "name": "Student Registration System (2018)",
+  "details": [
+    "Developed and deployed a full-stack system for student registration and course management.",
+    "Built the frontend with HTML, CSS, and Bootstrap, and backend with PHP and MySQL.",
+    "Hosted and configured the application on a Linux Ubuntu server using Apache HTTP."
+  ],
+  "url": "",
+  "hide": false
+}
   ],
   "technologies": [
     {
