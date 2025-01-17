@@ -11,20 +11,12 @@
   },
   "projects": [
     {
-      "name": "Research Paper Multilable Classification",
+      "name": "Research Paper Multilabel Classification",
       "details": [
         "Classified research papers into 18 subject areas using TF-IDF and OneVsRestClassifier with LinearSVC.",
         "Achieved a weighted F1-score of 0.54 and implemented hyperparameter tuning with GridSearchCV."
       ],
       "url": "github.com/tumrabert/kaggle_text_multilabel_classification",
-      "hide": false
-    },
-    {
-      "name": "Wordpress application automation deployment (2024)",
-      "details": [
-        "Automated Wordpress website deployment on AWS using Terraform, streamlining infrastructure management."
-      ],
-      "url": "github.com/tumrabert/Cloud_Midterm_Project",
       "hide": false
     },
     {
@@ -37,43 +29,13 @@
       "hide": false
     },
     {
-      "name": "Swine fat measurement by using computer vision (Senior Project) (2023)",
+      "name": "Swine fat measurement by using computer vision (Senior Project)",
       "details": [
         "Developed a Computer Vision-based system to measure fat thickness in pig carcasses, reducing manual effort and errors.",
         "Trained YOLOv8 for object detection and implemented real-time predictions integrated with FastAPI.",
         "Streamlined model performance by carefully cleaning and sourcing data directly from swine production lines."
       ],
-      "url": "github.com/Jinnapat/betagro-swine-fat-measurement-frontend",
-      "hide": false
-    },
-    {
-      "name": "DataCrisis: Insights from Engineering Literature",
-      "details": [
-        "Automated data extraction from Scopus API using Airflow.",
-        "Applied clustering and dimensionality reduction (t-SNE, k-means) to derive insights from recent engineering research.",
-        "Visualized results with Power BI for enhanced decision-making."
-      ],
-      "url": "github.com/clickCA/Data-sCrisis",
-      "hide": false
-    },
-    {
-      "name": "Geographically Gifted Giraffe (GGG)",
-      "details": [
-        "Designed an interactive travel chatbot leveraging Google Cloud Vision API for landmark recognition and Gemini AI for conversational responses.",
-        "Integrated Text-to-Speech API to enhance user interaction with natural-sounding speech.",
-        "Focused on popular destinations and landmarks for accurate and engaging user experiences."
-      ],
-      "url": "github.com/clickCA/Geographically-Gifted-Giraffe-GGG",
-      "hide": false
-    },
-    {
-      "name": "Student Registration System (2018)",
-      "details": [
-        "Developed and deployed a full-stack system for student registration and course management.",
-        "Built the frontend with HTML, CSS, and Bootstrap, and backend with PHP and MySQL.",
-        "Hosted and configured the application on a Linux Ubuntu server using Apache HTTP."
-      ],
-      "url": "",
+      "url": "github.com/tumrabert/swine_fat_measurement",
       "hide": false
     }
   ],
@@ -108,7 +70,7 @@
     {
       "section": "Tools & Platforms:",
       "details": [
-        "Airflow ",
+        "Airflow",
         "AWS",
         "Docker",
         "GCP"
@@ -117,7 +79,7 @@
     {
       "section": "Database Management:",
       "details": [
-        "MySQL ",
+        "MySQL",
         "PostgreSQL",
         "MongoDB"
       ]
@@ -153,7 +115,7 @@
       "details": [
         "Analyzed team workflows to measure task allocation efficiency using Excel and presented actionable recommendations to reduce overtime.",
         "Identified process inefficiencies and proposed solutions, including resource optimization and task reassignment.",
-        "Enhanced task management efficiency by collaborating across departments to understand team roles and responsibilities.",
+        "Enhanced task management efficiency by collaborating across departments to understand team roles and responsibilities."
       ]
     }
   ],
@@ -192,13 +154,13 @@
       "details": [
         "Self-Development",
         "History",
-        "Bussiness"
+        "Business"
       ]
     },
     {
       "title": "Sports",
       "details": [
-        "Running(Half-Marathon finisher)",
+        "Running (Half-Marathon finisher)",
         "Gym"
       ]
     }
