@@ -11,101 +11,103 @@
   },
   "projects": [
     {
-      "name": "HaveFun(d)",
+      "name": "Research Paper Multilable Classification",
       "details": [
-        "Built for ETHGlobal Bangkok Hackathon competition, HaveFun(d) is an innovative platform designed to simplify fundraising on Web3.",
-        "Developed a seamless integration of Web3 with Web2 payment options, allowing contributors to use their credit cards to support fundraising projects.",
-        "The destination chain for fundraisers is Hedera, ensuring secure and efficient handling of transactions."
+        "Classified research papers into 18 subject areas using TF-IDF and OneVsRestClassifier with LinearSVC.",
+        "Achieved a weighted F1-score of 0.54 and implemented hyperparameter tuning with GridSearchCV."
       ],
-      "url": "ethglobal.com/showcase/havefun-d-fm3ie",
+      "url": "github.com/tumrabert/kaggle_text_multilabel_classification",
       "hide": false
-    }
-    ,
-    {
-      "name":"Camping booking system(Backend Development)",
-      "details":["This is a project that I developed during my studies in the 'Software Backend Development' subject",
-                "Purpose of this project is to create a camping booking system that allows users to book camping spots and manage their bookings.",
-  "Using Node.js, Express.js, and MongoDB, I developed a RESTful API that enables users to create, read, update, and delete bookings and spots."],
-      "url":"github.com/tumrabert/Backend_Development_Template",
-      "hide":false
     },
     {
-      "name": "Android Call Log Creator",
+      "name": "Enhancing Food Distribution Efficiency with Ant Colony Optimization",
       "details": [
-        "Developed a React Native application using the Expo framework to generate random phone call activities.",
-        "Implemented features allowing users to specify the start and end dates for generating call logs.",
-        "Each generated call activity includes a random duration and a timestamp that falls within the specified date range."
+        "Optimized delivery routes for ingredient distribution using Kaggle's food delivery data and Ant Colony Optimization.",
+        "Automated data processing with Python frameworks (NumPy, Pandas, NetworkX) and visualized results with matplotlib."
       ],
-      "url": "github.com/tumrabert/android_create_call_log",
-      "hide": true
+      "url": "github.com/tumrabert/ACO_restaurant",
+      "hide": false
     },
     {
       "name": "Swine fat measurement by using computer vision (Senior Project)",
       "details": [
-        "Designed and implemented an intuitive ReactJS/Next.js interface to simplify swine fat measurement processes.",
+        "Developed a Computer Vision-based system to measure fat thickness in pig carcasses, reducing manual effort and errors.",
+        "Trained YOLOv8 for object detection and implemented real-time predictions integrated with FastAPI.",
         "Streamlined model performance by carefully cleaning and sourcing data directly from swine production lines."
       ],
       "url": "github.com/Jinnapat/betagro-swine-fat-measurement-frontend",
       "hide": false
     },
     {
-      "name": "Wordpress application automation deployment",
+      "name": "DataCrisis: Insights from Engineering Literature",
       "details": [
-        "Automated Wordpress website deployment on AWS using Terraform, streamlining infrastructure management."
+        "Automated data extraction from Scopus API using Airflow.",
+        "Applied clustering and dimensionality reduction (t-SNE, k-means) to derive insights from recent engineering research.",
+        "Visualized results with Power BI for enhanced decision-making."
       ],
-      "url": "github.com/tumrabert/kaggle_text_multilabel_classification",
+      "url": "github.com/clickCA/Data-sCrisis",
       "hide": false
     },
     {
-      "name": "PlayHub",
+      "name": "Geographically Gifted Giraffe (GGG)",
       "details": [
-        "Designed and developed a web application using React and TypeScript on NextJS Framework to connect individuals interested in playing board games.",
-        "Led responsibilities in UX/UI design and front-end development."
+        "Designed an interactive travel chatbot leveraging Google Cloud Vision API for landmark recognition and Gemini AI for conversational responses.",
+        "Integrated Text-to-Speech API to enhance user interaction with natural-sounding speech.",
+        "Focused on popular destinations and landmarks for accurate and engaging user experiences."
       ],
-      "url": "",
+      "url": "github.com/clickCA/Geographically-Gifted-Giraffe-GGG",
       "hide": false
     }
   ],
   "technologies": [
     {
-      "section": "Languages:",
+      "section": "Programming Languages:",
       "details": [
         "Python (proficient)",
         "GO",
-        "Node.js",
-        "JavaScript,TypeScript",
-        "React.js",
-        "Solidity"
+        "SQL",
+        "JavaScript",
+        "Visual Basic .NET"
       ]
     },
     {
-      "section": "Frameworks:",
+      "section": "Data Analysis & Visualization:",
       "details": [
-        "ReactJS",
-        "NextJS",
-        "ExpressJS"
+        "Pandas",
+        "NumPy",
+        "Matplotlib"
       ]
     },
     {
-      "section": "Tools:",
+      "section": "Machine Learning:",
       "details": [
-        "Git",
-        "Postman",
-        "Linux CLI",
-        "Terraform",
-        "Docker",
-        "Figma",
-        "Jira",
-        "Jest Unit Test",
-        "Apache Airflow",
+        "Scikit-learn",
+        "TensorFlow",
+        "t-SNE",
+        "k-means"
+      ]
+    },
+    {
+      "section": "Tools & Platforms:",
+      "details": [
+        "Airflow ",
         "AWS",
-        "MongoDb"
+        "Docker",
+        "GCP"
+      ]
+    },
+    {
+      "section": "Database Management:",
+      "details": [
+        "MySQL ",
+        "PostgreSQL",
+        "MongoDB"
       ]
     },
     {
       "section": "Languages:",
       "details": [
-        "English (TOEIC 815)","Native Thai Speaker"
+        "English (TOEIC 815)"
       ]
     }
   ],
@@ -117,20 +119,11 @@
       "start": "August 2024",
       "end": "Present",
       "details": [
-        "Assist in project management, including analyzing and designing detailed systems. Carry out system development, follow the testing plan, and manage implementation and decommissioning plans.",
-        "Edit and enhance existing .NET code based on requirements, ensuring functionality aligns with system specifications."
-      ]
-    },
-    {
-      "position": "Full Stack Developer Internship",
-      "company": "Ayodia Co.,Ltd",
-      "url": "",
-      "start": "January 2024",
-      "end": "March 2024",
-      "details": [
-        "Customized Strapi CMS (open-source) for internal TTB Bank use, enhancing content management efficiency.",
-        "Applied Git, Agile methodologies, React, and Node.js to deliver robust web solutions.",
-        "Performed unit testing with Jest to ensure code quality and reliability."
+        "Transformed business requirements into functional implementations using Visual Basic .NET and SQL.",
+        "Modified database structures to align with evolving business needs, ensuring efficient data migration and relational integrity.",
+        "Developed stored procedures for data retrieval and manipulation, enhancing system performance and usability.",
+        "Migrated legacy data into modern systems while maintaining data integrity.",
+        "Collaborated with cross-functional teams to ensure seamless system integration."
       ]
     },
     {
@@ -140,8 +133,9 @@
       "start": "May 2023",
       "end": "August 2023",
       "details": [
-        "Utilized LoadRunner to assess application speed, scalability, and stability under diverse conditions, ensuring it met performance standards for an optimal user experience.",
-        "Analyzed the working time of employees in each team to measure task allocation efficiency and ensure appropriate task time management."
+        "Analyzed team workflows to measure task allocation efficiency using Excel and presented actionable recommendations to reduce overtime.",
+        "Identified process inefficiencies and proposed solutions, including resource optimization and task reassignment.",
+        "Enhanced task management efficiency by collaborating across departments to understand team roles and responsibilities.",
       ]
     }
   ],
@@ -151,26 +145,28 @@
       "university": "Chulalongkorn University, Bangkok, Thailand",
       "start_year": "2020",
       "end_year": "2024",
-      "GPAX": "3.02"
+      "GPAX": "3.02",
+      "details": [
+        "Capstone Project: Automated measurement of swine fat thickness using Computer Vision and YOLOv8, reducing manual effort and improving accuracy."
+      ]
     }
   ],
   "interests": [
     {
       "title": "Areas",
       "details": [
-        "Backend Development",
+        "Financial payment systems, driven by a passion for creating impactful solutions in the banking industry.",
         "Cloud Engineer",
+        "Backend Development",
         "Productivity & Life-hacks",
-        "Blockchain & Web3",
-        "Finance & Investment"
+        "Blockchain & Web3"
       ]
     },
     {
       "title": "Freetime",
       "details": [
-        "Content Creator",
-        "Podcast",
-        "Guitar instrument"
+        "Movies & Series",
+        "Reading"
       ]
     },
     {
@@ -178,21 +174,14 @@
       "details": [
         "Self-Development",
         "History",
-        "Biography"
+        "Bussiness"
       ]
     },
     {
-      "title": "Music",
+      "title": "Sports",
       "details": [
-        "Pop",
-        "Rock",
-        "ลูกทุ่ง"
-      ]
-    },
-    {
-      "title": "Pets",
-      "details": [
-        "I have a chihuahua dog."
+        "Running(Half-Marathon finisher)",
+        "Gym"
       ]
     }
   ],
