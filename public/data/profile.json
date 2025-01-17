@@ -20,6 +20,14 @@
       "hide": false
     },
     {
+      "name": "Wordpress application automation deployment (2024)",
+      "details": [
+        "Automated Wordpress website deployment on AWS using Terraform, streamlining infrastructure management."
+      ],
+      "url": "github.com/tumrabert/Cloud_Midterm_Project",
+      "hide": false
+    },
+    {
       "name": "Enhancing Food Distribution Efficiency with Ant Colony Optimization",
       "details": [
         "Optimized delivery routes for ingredient distribution using Kaggle's food delivery data and Ant Colony Optimization.",
@@ -29,7 +37,7 @@
       "hide": false
     },
     {
-      "name": "Swine fat measurement by using computer vision (Senior Project)",
+      "name": "Swine fat measurement by using computer vision (Senior Project) (2023)",
       "details": [
         "Developed a Computer Vision-based system to measure fat thickness in pig carcasses, reducing manual effort and errors.",
         "Trained YOLOv8 for object detection and implemented real-time predictions integrated with FastAPI.",
@@ -56,6 +64,16 @@
         "Focused on popular destinations and landmarks for accurate and engaging user experiences."
       ],
       "url": "github.com/clickCA/Geographically-Gifted-Giraffe-GGG",
+      "hide": false
+    },
+    {
+      "name": "Student Registration System (2018)",
+      "details": [
+        "Developed and deployed a full-stack system for student registration and course management.",
+        "Built the frontend with HTML, CSS, and Bootstrap, and backend with PHP and MySQL.",
+        "Hosted and configured the application on a Linux Ubuntu server using Apache HTTP."
+      ],
+      "url": "",
       "hide": false
     }
   ],
