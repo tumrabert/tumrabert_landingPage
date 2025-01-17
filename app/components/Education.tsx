@@ -7,6 +7,7 @@ interface EducationProps {
   start_year: string;
   end_year: string | null;
   GPAX: string;
+  details: string[];
 }
 interface Props {
   educations: EducationProps[];
@@ -20,6 +21,7 @@ const Education: React.FC<Props> = ({ educations }) => {
 
       <ul className="text-left list-disc pl-8 mt-3">
         {educations.map((edu, index) => (
+          <>
           <li key={index}>
             <div className="flex mb-2 font-bold print:mb-1">
               <div className="flex-1 text-left">{edu.degree}</div>
@@ -30,6 +32,12 @@ const Education: React.FC<Props> = ({ educations }) => {
             </div>
             {edu.university}, GPAX: {edu.GPAX}
           </li>
+          <ul className="text-left list-disc pl-8 print:pl-6 mt-3">
+            {edu.details.map((detail, index) => (
+              <li key={index}>{detail}</li>
+            ))}
+          </ul>
+          </>
         ))}
       </ul>
     </div>
