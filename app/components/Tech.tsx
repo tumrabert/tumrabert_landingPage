@@ -16,7 +16,7 @@ const Technologies: React.FC<Props> = ({ technologies }) => {
       <ul className="text-left list-disc pl-8 mt-3">
         {technologies.map((tech, index) => (
           <li key={index}>
-            <span className="w-28 inline-block">{tech.section}</span>
+            <span className="w-[20%] inline-block"><strong>{tech.section}</strong></span>
             <span>{tech.details.join(", ")}</span>
           </li>
         ))}
