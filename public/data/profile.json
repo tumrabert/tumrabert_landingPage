@@ -14,7 +14,7 @@
       "name": "Research Paper Multilabel Classification",
       "details": [
         "Classified research papers into 18 subject areas using TF-IDF and OneVsRestClassifier with LinearSVC.",
-        "Achieved a weighted F1-score of 0.54 and implemented hyperparameter tuning with GridSearchCV."
+        "Implemented hyperparameter tuning with GridSearchCV to optimize model performance."
       ],
       "url": "github.com/tumrabert/kaggle_text_multilabel_classification",
       "hide": false
