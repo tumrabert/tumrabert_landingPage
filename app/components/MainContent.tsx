@@ -28,8 +28,8 @@ const MainContent: React.ForwardRefRenderFunction<HTMLDivElement, MainContentPro
       <Intro intros={data.intro} />
       <Technologies technologies={data.technologies} />
       <Education educations={data.educations} />
-      <Work workExperiences={data.workExperiences} />
       <Projects projects={data.projects} />
+      <Work workExperiences={data.workExperiences} />
       <Certificates certificates={data.certificates} />
       <Interests interests={data.interests} />
     </div>
