@@ -2,9 +2,10 @@
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {
-  title: 'Tumrabert Resume',
-  description: 'The Resume of Tanakit Phenntun(tumrabert)',
+  title: 'Tanakit Phentun - Data Scientist Resume | Tumrabert',
+  description: 'Explore the professional resume of Tanakit Phentun (Tumrabert), a skilled Data Scientist with expertise in machine learning, data engineering, and software development. Learn about achievements, projects, and skills in applying advanced analytical techniques and solving complex problems to drive innovation and deliver business value.',
 };
+
 import React, { Suspense } from "react";
 import Header from "../components/Header";
 import Spinner from "../components/Spinner/Spinner";
