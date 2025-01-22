@@ -11,31 +11,59 @@
   },
   "projects": [
     {
-      "name": "Research Paper Multilabel Classification",
+      "name": "Swine Fat Measurement with Computer Vision",
       "details": [
-        "Classified research papers into 18 subject areas using TF-IDF and OneVsRestClassifier with LinearSVC.",
-        "Implemented hyperparameter tuning with GridSearchCV to optimize model performance."
+        "Developed an automated system for measuring pig carcass fat thickness using YOLOv8 and Computer Vision.",
+        "Achieved high accuracy with a Mean Absolute Error (MAE) of ±0.43 cm.",
+        "Designed a real-time processing system with a processing rate of 19 FPS.",
+        "Built user-friendly web applications for batch, video, and real-time input using FastAPI and Next.js.",
+        "Collaborated with Betagro to enhance the efficiency of pig processing operations."
       ],
-      "url": "github.com/tumrabert/kaggle_text_multilabel_classification",
+      "url": "github.com/Jinnapat/betagro-swine-fat-measurement-frontend",
       "hide": false
     },
     {
-      "name": "Enhancing Food Distribution Efficiency with Ant Colony Optimization",
+      "name": "Research Paper Multilabel Classification",
       "details": [
-        "Optimized delivery routes for ingredient distribution using Kaggle's food delivery data and Ant Colony Optimization.",
-        "Automated data processing with Python frameworks (NumPy, Pandas, NetworkX) and visualized results with matplotlib."
+        "Classified research papers into 18 subject areas using TF-IDF and a OneVsRestClassifier with LinearSVC.",
+        "Built a machine learning pipeline integrating preprocessing, feature extraction, and model training.",
+        "Used multi-label binarization and TF-IDF to transform text into structured numerical data.",
+        "Optimized the model with hyperparameter tuning via GridSearchCV, achieving an F1-score of 0.54 and recall of 0.50.",
+        "Developed a modular workflow with Airflow to streamline data extraction from Scopus API and model training."
+      ],
+      "url": "shorturl.at/5JzlJ",
+      "hide": false
+    },
+    {
+      "name": "Enhancing Food Distribution Efficiency with Ant Colony Optimization ",
+      "details": [
+        "Designed an optimized delivery system for Pizza Hub’s cloud kitchens using Ant Colony Optimization (ACO).",
+        "Processed food delivery datasets from Kaggle to calculate optimal routes considering customer demand and delivery distances.",
+        "Built a graph representation of the network, leveraging Python libraries such as NetworkX, Pandas, and Numpy.",
+        "Modeled pheromone-based routing strategies with ACO, iterating parameters for best efficiency.",
+        "Automated data processing with Python and visualized results using Matplotlib."
       ],
       "url": "github.com/tumrabert/ACO_restaurant",
       "hide": false
     },
     {
-      "name": "Swine fat measurement by using computer vision (Senior Project)",
+      "name": "AI-Powered Travel Assistant",
       "details": [
-        "Developed a Computer Vision-based system to measure fat thickness in pig carcasses, reducing manual effort and errors.",
-        "Trained YOLOv8 for object detection and implemented real-time predictions integrated with FastAPI.",
-        "Streamlined model performance by carefully cleaning and sourcing data directly from swine production lines."
+        "Designed an interactive chatbot for travelers using Google Cloud Vision API and Text-to-Speech",
+        "Leveraged Google Gemini LLM to provide engaging and informative travel recommendations",
+        "Enabled landmark recognition through image inputs, offering users personalized travel insights"
       ],
-      "url": "github.com/tumrabert/swine_fat_measurement",
+      "url": "github.com/clickCA/Geographically-Gifted-Giraffe-GGG",
+      "hide": false
+    },
+    {
+      "name": "Wordpress application automation deployment",
+      "details": [
+        "Automated deployment of WordPress on AWS using Terraform for Infrastructure-as-Code.",
+        "Provisioned EC2 instances, VPCs, and S3 for media storage, ensuring high availability.",
+        "Integrated security best practices to restrict database access to internal network traffic only."
+      ],
+      "url": "github.com/tumrabert/Cloud_Midterm_Project",
       "hide": false
     }
   ],
@@ -45,35 +73,48 @@
       "details": [
         "Python (proficient)",
         "GO",
-        "SQL",
-        "JavaScript",
+        "TypeScript",
         "Visual Basic .NET"
       ]
     },
     {
-      "section": "Data Analysis & Visualization:",
+      "section": "Frameworks & Libraries:",
+      "details": [
+        "TensorFlow",
+        "PyTorch",
+        "scikit-learn",
+        "FastAPI",
+        "OpenCV"
+      ]
+    },
+    {
+      "section": "Machine Learning Expertise:",
+      "details": [
+        "Object detection",
+        "Hyperparameter tuning",
+        "Real-time optimization",
+        "OCR",
+        "Image processing"
+      ]
+    },
+    {
+      "section": "Data Analysis & Tools:",
       "details": [
         "Pandas",
         "NumPy",
-        "Matplotlib"
+        "Matplotlib",
+        "SQL"
       ]
     },
     {
-      "section": "Machine Learning:",
+      "section": "Cloud & DevOps:",
       "details": [
-        "Scikit-learn",
-        "TensorFlow",
-        "t-SNE",
-        "k-means"
-      ]
-    },
-    {
-      "section": "Tools & Platforms:",
-      "details": [
-        "Airflow",
         "AWS",
+        "GCP",
         "Docker",
-        "GCP"
+        "Terraform",
+        "Apache Airflow",
+        "CI/CD"
       ]
     },
     {
@@ -99,11 +140,22 @@
       "start": "August 2024",
       "end": "Present",
       "details": [
-        "Transformed business requirements into functional implementations using Visual Basic .NET and SQL.",
-        "Modified database structures to align with evolving business needs, ensuring efficient data migration and relational integrity.",
-        "Developed stored procedures for data retrieval and manipulation, enhancing system performance and usability.",
-        "Migrated legacy data into modern systems while maintaining data integrity.",
-        "Collaborated with cross-functional teams to ensure seamless system integration."
+        " Transformed business requirements into functional implementations using Visual Basic .NET and SQL",
+        "Modified database structures to align with evolving business needs, ensuring efficient data migration and relational integrity",
+        "Developed stored procedures for data retrieval and manipulation",
+        "Migrated legacy data into modern systems while maintaining data integrity"
+      ]
+    },
+    {
+      "position": "Full Stack Developer Intern",
+      "company": "Ayodia",
+      "url": "",
+      "start": "January 2024",
+      "end": "March 2024",
+      "details": [
+        "Customized Strapi CMS (open-source) for internal TTB Bank use, enhancing content management efficiency.",
+        "Applied Git, Agile methodologies, React, and Node.js to deliver robust web solutions.",
+        "Performed unit testing with Jest to ensure code quality and reliability."
       ]
     },
     {
@@ -113,9 +165,9 @@
       "start": "May 2023",
       "end": "August 2023",
       "details": [
-        "Analyzed team workflows to measure task allocation efficiency using Excel and presented actionable recommendations to reduce overtime.",
-        "Identified process inefficiencies and proposed solutions, including resource optimization and task reassignment.",
-        "Enhanced task management efficiency by collaborating across departments to understand team roles and responsibilities."
+        "Analyzed team workflows to measure task allocation efficiency using Excel and presented actionable recommendations",
+        "Identified process inefficiencies and proposed solutions, including resource optimization",
+        "Enhanced task management efficiency by collaborating across departments"
       ]
     }
   ],
@@ -127,7 +179,7 @@
       "end_year": "2024",
       "GPAX": "3.02",
       "details": [
-        "Capstone Project: Automated measurement of swine fat thickness using Computer Vision and YOLOv8, reducing manual effort and improving accuracy."
+        "Capstone Project: Swine Fat Measurement with Computer Vision-Developed an automated swine fat thickness measurement system using YOLOv8, Computer Vision, and FastAPI, achieving significant accuracy improvements over manual methods."
       ]
     }
   ],
@@ -177,7 +229,7 @@
     },
     {
       "title": "Google Data Analytics",
-      "description": "Completed the Google Data Analytics Professional Certificate, demonstrating proficiency in data preparation, processing, analysis, and visualization using spreadsheets, SQL, Tableau, and R.",
+      "description": "Expertise in data preparation, processing, and visualization using spreadsheets, SQL, Tableau, and R.",
       "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/VS5ACQJ6DV86"
     },
     {
