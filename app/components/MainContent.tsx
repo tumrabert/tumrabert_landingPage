@@ -7,6 +7,7 @@ import Work from "./Workexp";
 import Projects from "./Projects";
 import Certificates from "./Certificates";
 import Interests from "./Interests";
+import Summary from "./Summary";
 
 // Props typing
 interface MainContentProps {
@@ -18,6 +19,7 @@ interface MainContentProps {
     projects: any;
     certificates: any;
     interests: any;
+    summary:string;
   };
 }
 
@@ -26,6 +28,7 @@ const MainContent: React.ForwardRefRenderFunction<HTMLDivElement, MainContentPro
   return (
     <div ref={ref} className="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
       <Intro intros={data.intro} />
+      <Summary summary={data.summary}/>
       <Technologies technologies={data.technologies} />
       <Education educations={data.educations} />
       <Projects projects={data.projects} />
