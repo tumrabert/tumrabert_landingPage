@@ -17,19 +17,11 @@ const Certificates: React.FC<Props> = ({ certificates }) => {
       <ul className="text-left list-disc pl-8 mt-5">
         {certificates.map((certificate, index) => (
           <li key={index}>
-            <strong>{certificate.title} - </strong>
-            {certificate.url !== "" && (
-              <a
-                href={certificate.url}
-                target="_blank"
-                rel="noreferrer"
-                style={{ marginRight: "20px" }}
-              >
-                <strong>{certificate.url}</strong>
-              </a>
-            )}
-
-            <br />
+            <div className="flex">
+                <a href={certificate.url} target="_blank" rel="noreferrer" className="flex-0 text-left">
+                <strong>{certificate.title}</strong>
+                </a>
+                </div>
 
             <li style={{ marginLeft: "20px" }}>{certificate.description}</li>
           </li>

@@ -10,6 +10,7 @@ interface Intro {
   website: string;
 }
 
+summary : string;
 interface Certificate {
   title: string;
   description: string;

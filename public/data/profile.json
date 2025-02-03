@@ -20,7 +20,7 @@
         "Built user-friendly web applications for batch, video, and real-time input using FastAPI and Next.js.",
         "Collaborated with Betagro to enhance the efficiency of pig processing operations."
       ],
-      "url": "github.com/Jinnapat/betagro-swine-fat-measurement-frontend",
+      "url": "https://github.com/Jinnapat/betagro-swine-fat-measurement-frontend",
       "hide": false
     },
     {
@@ -32,7 +32,7 @@
         "Optimized the model with hyperparameter tuning via GridSearchCV, achieving an F1-score of 0.54 and recall of 0.50.",
         "Developed a modular workflow with Airflow to streamline data extraction from Scopus API and model training."
       ],
-      "url": "shorturl.at/5JzlJ",
+      "url": "https://shorturl.at/5JzlJ",
       "hide": false
     },
     {
@@ -44,7 +44,7 @@
         "Modeled pheromone-based routing strategies with ACO, iterating parameters for best efficiency.",
         "Automated data processing with Python and visualized results using Matplotlib."
       ],
-      "url": "github.com/tumrabert/ACO_restaurant",
+      "url": "https://github.com/tumrabert/ACO_restaurant",
       "hide": false
     },
     {
@@ -54,7 +54,7 @@
         "Leveraged Google Gemini LLM to provide engaging and informative travel recommendations",
         "Enabled landmark recognition through image inputs, offering users personalized travel insights"
       ],
-      "url": "github.com/clickCA/Geographically-Gifted-Giraffe-GGG",
+      "url": "https://github.com/clickCA/Geographically-Gifted-Giraffe-GGG",
       "hide": false
     },
     {
@@ -64,7 +64,7 @@
         "Provisioned EC2 instances, VPCs, and S3 for media storage, ensuring high availability.",
         "Integrated security best practices to restrict database access to internal network traffic only."
       ],
-      "url": "github.com/tumrabert/Cloud_Midterm_Project",
+      "url": "https://github.com/tumrabert/Cloud_Midterm_Project",
       "hide": false
     }
   ],

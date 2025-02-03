@@ -14,25 +14,13 @@ const Projects: React.FC<Props> = ({ projects }) => {
   return (
     <div className="projects">
       <Title>Projects</Title>
-
       <ul className="text-left list-disc pl-8 mt-5">
         {projects.map((project, index) => (
           <li key={index}>
             <div className="flex">
-              <strong className="flex-0 text-left">{project.name}</strong>
-
-              {project.url !== "" && (
-                <div className="flex-1 text-right">
-                  <a
-                    href={`https://${project.url}`}
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{ marginRight: "20px" }}
-                  >
-                    {project.url}
-                  </a>
-                </div>
-              )}
+                <a href={project.url} target="_blank" rel="noreferrer" className="flex-0 text-left">
+                <strong>{project.name}</strong>
+                </a>
             </div>
 
             {/* Details as separate lis */}

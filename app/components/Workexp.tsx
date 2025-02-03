@@ -23,9 +23,13 @@ const Work: React.FC<Props> = ({ workExperiences }) => {
           <div key={index} className="flex font-bold mb-2 print:mb-1 mt-3">
             <div className="flex-1 text-left">{work.position}</div>
             <div className="flex-0">
-              <a href={work.url} target="_blank" rel="noreferrer">
-                {work.company}
-              </a>
+                {work.url ? (
+                <a href={work.url} target="_blank" rel="noreferrer">
+                  {work.company}
+                </a>
+                ) : (
+                work.company
+                )}
             </div>
             <div className="flex-1 text-right">
               {work.start} - {work.end === null ? "Present" : work.end}

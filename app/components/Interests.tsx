@@ -16,10 +16,10 @@ const Interests: React.FC<Props> = ({ interests }) => {
       <Title>Interests</Title>
       <ul className="text-left list-disc pl-8 mt-3">
         {interests.map((interest, index) => (
-          <li key={index}>
-            <span className="w-28 inline-block">{interest.title}:</span>
-            <span>{interest.details.join(", ")}</span>
-          </li>
+          <li key={index} className="flex gap-1 items-start">
+          <span className="w-[25%] font-bold inline-block">{interest.title}</span>
+          <span className="flex-1">{interest.details.join(", ")}</span>
+        </li>
         ))}
       </ul>
     </div>
