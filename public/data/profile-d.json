@@ -9,7 +9,7 @@
     "location": "Bangkok, Thailand",
     "website": "tumrabertworld.vercel.app/resume"
   },
-  "summary": "**Python Developer** with **3 years of experience** in **backend development, data processing, and automation**. Proficient in **Flask, FastAPI, and Django**, with a strong foundation in **API development, database management, and cloud deployment** using **AWS and GCP**. Experienced in **building efficient and maintainable systems**, integrating **data pipelines**, and collaborating with **frontend developers and data teams**. Adept at **writing clean, reusable code**, optimizing **performance**, and implementing **security best practices**. Passionate about **solving real-world problems** through well-structured and scalable software solutions.",
+  "summary": "**AI Engineer** with experience in **machine learning, data processing, and model deployment**. Skilled in **Python, TensorFlow, PyTorch, and Scikit-learn**, with expertise in **building and optimizing AI models** for **classification, NLP, and computer vision** tasks. Experienced in **data preprocessing, feature engineering, and deploying AI services** using **FastAPI and Flask**. Strong background in **cloud-based AI solutions** with **AWS, GCP, and Docker** for scalable model deployment. Passionate about **applying AI to real-world problems**, collaborating with **data scientists and software engineers** to develop innovative and efficient AI-powered applications.",
   "projects": [
     {
       "name": "Swine Fat Measurement with Computer Vision",
@@ -70,7 +70,7 @@
   ],
   "technologies": [
     {
-      "section": "Programming Languages:",
+      "section": "Programming Languages",
       "details": [
         "Python (proficient)",
         "GO",
@@ -79,24 +79,32 @@
       ]
     },
     {
-      "section": "Frameworks & Libraries:",
+      "section": "Frameworks & Libraries",
       "details": [
-        "Flask",
-        "Django",
-        "FastAPI",
         "TensorFlow",
         "PyTorch",
+        "scikit-learn",
+        "FastAPI",
         "OpenCV"
       ]
     },
     {
-      "section": "Frontend Technologies:",
+      "section": "Machine Learning Expertise",
       "details": [
-        "ReactJS",
-        "NextJS",
-        "JavaScript",
-        "HTML5",
-        "CSS3"
+        "Object detection",
+        "Hyperparameter tuning",
+        "Real-time optimization",
+        "OCR",
+        "Image processing"
+      ]
+    },
+    {
+      "section": "Data Analysis & Tools",
+      "details": [
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "SQL"
       ]
     },
     {
@@ -128,7 +136,7 @@
       ]
     },
     {
-      "section": "Languages:",
+      "section": "Languages",
       "details": [
         "English (TOEIC 815)"
       ]
@@ -142,7 +150,7 @@
       "start": "August 2024",
       "end": "Present",
       "details": [
-        " Transformed business requirements into functional implementations using Visual Basic .NET and SQL",
+        "Transformed business requirements into functional implementations using Visual Basic .NET and SQL",
         "Modified database structures to align with evolving business needs, ensuring efficient data migration and relational integrity",
         "Developed stored procedures for data retrieval and manipulation",
         "Migrated legacy data into modern systems while maintaining data integrity"
