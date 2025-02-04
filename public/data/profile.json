@@ -21,7 +21,8 @@
         "Collaborated with Betagro to enhance the efficiency of pig processing operations."
       ],
       "url": "https://github.com/Jinnapat/betagro-swine-fat-measurement-frontend",
-      "hide": false
+      "hide": false,
+      "year": "2023-2024"
     },
     {
       "name": "Research Paper Multilabel Classification",
@@ -33,7 +34,8 @@
         "Developed a modular workflow with Airflow to streamline data extraction from Scopus API and model training."
       ],
       "url": "https://shorturl.at/5JzlJ",
-      "hide": false
+      "hide": false,
+      "year": "January 2024"
     },
     {
       "name": "Enhancing Food Distribution Efficiency with Ant Colony Optimization ",
@@ -45,7 +47,8 @@
         "Automated data processing with Python and visualized results using Matplotlib."
       ],
       "url": "https://github.com/tumrabert/ACO_restaurant",
-      "hide": false
+      "hide": false,
+      "year": "April 2024"
     },
     {
       "name": "AI-Powered Travel Assistant",
@@ -55,7 +58,8 @@
         "Enabled landmark recognition through image inputs, offering users personalized travel insights"
       ],
       "url": "https://github.com/clickCA/Geographically-Gifted-Giraffe-GGG",
-      "hide": false
+      "hide": false,
+      "year": "March 2024"
     },
     {
       "name": "Wordpress application automation deployment",
@@ -65,7 +69,8 @@
         "Integrated security best practices to restrict database access to internal network traffic only."
       ],
       "url": "https://github.com/tumrabert/Cloud_Midterm_Project",
-      "hide": false
+      "hide": false,
+      "year": "February 2024"
     }
   ],
   "technologies": [

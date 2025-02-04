@@ -5,6 +5,8 @@ interface Project {
   name: string;
   details: string[];
   url: string;
+  hide:boolean;
+  year: string;
 }
 interface Props {
   projects: Project[];
@@ -16,13 +18,19 @@ const Projects: React.FC<Props> = ({ projects }) => {
       <Title>Projects</Title>
       <ul className="text-left list-disc pl-8 mt-5">
         {projects.map((project, index) => (
-          <li key={index}>
-            <div className="flex">
+
+          project.hide ? null :
+          (<li key={index}>
+            <div className="flex mb-2 font-bold print:mb-1">
+            <div className="flex-1 text-left">
                 <a href={project.url} target="_blank" rel="noreferrer" className="flex-0 text-left">
                 <strong>{project.name}</strong>
                 </a>
             </div>
-
+            <div className="flex-1 text-right">
+              {project.year ? project.year : ""}
+            </div>
+            </div>
             {/* Details as separate lis */}
             <ul className="list-disc pl-4" style={{ paddingLeft: "20px" }}>
               {/* Add nested ul with padding */}
@@ -30,7 +38,7 @@ const Projects: React.FC<Props> = ({ projects }) => {
                 <li key={detail}>{detail}</li>
               ))}
             </ul>
-          </li>
+          </li>)
         ))}
       </ul>
     </div>
