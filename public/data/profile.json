@@ -9,8 +9,32 @@
     "location": "Bangkok, Thailand",
     "website": "tumrabertworld.vercel.app/resume"
   },
+  "achievements": [
+    {"name": "Agentic AI Hackathon",
+    "year": "2025",
+    "details":["Secured the top position in the Agentic AI Hackathon by leveraging the Coinbase Developer Platform.",
+    "Developed an AI chatbot specializing in cryptocurrencies, Web3, and blockchain.",
+    "Integrated real-time crypto price updates and market-moving news alerts."],
+    "url": "",
+    "hide": false}
+  ],
   "summary": "**Python Developer** with **3 years of experience** in **backend development, data processing, and automation**. Proficient in **Flask, FastAPI, and Django**, with a strong foundation in **API development, database management, and cloud deployment** using **AWS and GCP**. Experienced in **building efficient and maintainable systems**, integrating **data pipelines**, and collaborating with **frontend developers and data teams**. Adept at **writing clean, reusable code**, optimizing **performance**, and implementing **security best practices**. Passionate about **solving real-world problems** through well-structured and scalable software solutions.",
   "projects": [
+    {
+      "name": "Automobile Parts Manufacturing Monitoring System ",
+      "details": [
+        "Developed a backend system using Node.js integrated with React (VITE) for a real-time monitoring system in an automobile parts manufacturing facility.",
+
+"Designed and implemented RESTful APIs for data collection, processing, and visualization.",
+
+"Optimized system performance using WebSockets for real-time data updates.",
+
+"Deployed the system on AWS with CI/CD pipelines for automated testing and deployment."
+      ],
+      "url": "",
+      "hide": false,
+      "year": "October 2024 - Present"
+    },
     {
       "name": "Swine Fat Measurement with Computer Vision",
       "details": [
