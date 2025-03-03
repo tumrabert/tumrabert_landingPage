@@ -111,7 +111,6 @@
       "section": "Frameworks & Libraries:",
       "details": [
         "Flask",
-        "Django",
         "FastAPI",
         "TensorFlow",
         "PyTorch",
@@ -159,7 +158,8 @@
     {
       "section": "Languages:",
       "details": [
-        "English (TOEIC 815)"
+        "English (TOEIC 815)",
+        "IELTS Overall 6.0"
       ]
     }
   ],
