@@ -18,7 +18,7 @@
     "url": "",
     "hide": false}
   ],
-  "summary": "**Python Developer** with **3 years of experience** in **backend development, data processing, and automation**. Proficient in **Flask, FastAPI, and Django**, with a strong foundation in **API development, database management, and cloud deployment** using **AWS and GCP**. Experienced in **building efficient and maintainable systems**, integrating **data pipelines**, and collaborating with **frontend developers and data teams**. Adept at **writing clean, reusable code**, optimizing **performance**, and implementing **security best practices**. Passionate about **solving real-world problems** through well-structured and scalable software solutions.",
+  "summary": "**Software Engineer** with experience in **backend development**, **data processing**, and **machine learning**. Proficient in **Python**, **Flask**, and **FastAPI**, with exposure to cloud platforms like **AWS** and **GCP**. Comfortable working with data using **Pandas**, **SQL**, and **NumPy**, and familiar with building and deploying ML models using **TensorFlow**. Interested in applying practical **software** and **data solutions** to solve real-world problems.",
   "projects": [
     {
       "name": "Automobile Parts Manufacturing Monitoring System ",
@@ -33,7 +33,7 @@
       ],
       "url": "",
       "hide": false,
-      "year": "October 2024 - Present"
+      "year": "October 2024 - December 2024"
     },
     {
       "name": "Swine Fat Measurement with Computer Vision",
@@ -49,19 +49,6 @@
       "year": "2023-2024"
     },
     {
-      "name": "Research Paper Multilabel Classification",
-      "details": [
-        "Classified research papers into 18 subject areas using TF-IDF and a OneVsRestClassifier with LinearSVC.",
-        "Built a machine learning pipeline integrating preprocessing, feature extraction, and model training.",
-        "Used multi-label binarization and TF-IDF to transform text into structured numerical data.",
-        "Optimized the model with hyperparameter tuning via GridSearchCV, achieving an F1-score of 0.54 and recall of 0.50.",
-        "Developed a modular workflow with Airflow to streamline data extraction from Scopus API and model training."
-      ],
-      "url": "https://shorturl.at/5JzlJ",
-      "hide": false,
-      "year": "January 2024"
-    },
-    {
       "name": "Enhancing Food Distribution Efficiency with Ant Colony Optimization ",
       "details": [
         "Designed an optimized delivery system for Pizza Hub’s cloud kitchens using Ant Colony Optimization (ACO).",
@@ -73,28 +60,6 @@
       "url": "https://github.com/tumrabert/ACO_restaurant",
       "hide": false,
       "year": "April 2024"
-    },
-    {
-      "name": "AI-Powered Travel Assistant",
-      "details": [
-        "Designed an interactive chatbot for travelers using Google Cloud Vision API and Text-to-Speech",
-        "Leveraged Google Gemini LLM to provide engaging and informative travel recommendations",
-        "Enabled landmark recognition through image inputs, offering users personalized travel insights"
-      ],
-      "url": "https://github.com/clickCA/Geographically-Gifted-Giraffe-GGG",
-      "hide": false,
-      "year": "March 2024"
-    },
-    {
-      "name": "Wordpress application automation deployment",
-      "details": [
-        "Automated deployment of WordPress on AWS using Terraform for Infrastructure-as-Code.",
-        "Provisioned EC2 instances, VPCs, and S3 for media storage, ensuring high availability.",
-        "Integrated security best practices to restrict database access to internal network traffic only."
-      ],
-      "url": "https://github.com/tumrabert/Cloud_Midterm_Project",
-      "hide": false,
-      "year": "February 2024"
     }
   ],
   "technologies": [
@@ -165,40 +130,29 @@
   ],
   "workExperiences": [
     {
-      "position": "System Analyst",
-      "company": "Bank of Thailand(Thai Central Bank)",
-      "url": "",
-      "start": "August 2024",
+      "position": "AI Agent Developer",
+      "company": "Avalant Co., Ltd.",
+      "url": "https://avlgb.com/",
+      "start": "Febuary 2025",
       "end": "Present",
+      "details": [
+        "Developed a visual AI agent automation platform, similar to n8n or Make.com, enabling users to design and orchestrate AI-powered workflows through a drag-and-drop interface",
+        "Created and deployed reusable integrations with external APIs, internal systems, and LLMs (e.g., Gemini, OpenAI, Claude) for use across customer-specific use cases.",
+        "Delivered end-to-end AI automation solutions tailored to enterprise needs, including document processing, chatbot agents, crypto alert bots, and data extract-transform-load (ETL) flows.",
+        "Built AI automation workflows for diverse use cases, such as customer service, internal tooling, and real-time alerts, tailored to client requirements."
+      ]
+    },
+    {
+      "position": "System Analyst",
+      "company": "Bank of Thailand",
+      "url": "https://www.bot.or.th/",
+      "start": "August 2024",
+      "end": "January 2025",
       "details": [
         " Transformed business requirements into functional implementations using Visual Basic .NET and SQL",
         "Modified database structures to align with evolving business needs, ensuring efficient data migration and relational integrity",
         "Developed stored procedures for data retrieval and manipulation",
         "Migrated legacy data into modern systems while maintaining data integrity"
-      ]
-    },
-    {
-      "position": "Full Stack Developer Intern",
-      "company": "Ayodia",
-      "url": "",
-      "start": "January 2024",
-      "end": "March 2024",
-      "details": [
-        "Built backend systems with Node.js and integrated with React-based frontends for robust performance.",
-        "Customized Strapi CMS to streamline internal banking processes for TTB Bank.",
-        "Improved application reliability by applying automated unit tests."
-      ]
-    },
-    {
-      "position": "Software Quality Management Internship",
-      "company": "Kasikorn Business-Technology Group (KBTG)",
-      "url": "",
-      "start": "May 2023",
-      "end": "August 2023",
-      "details": [
-        "Analyzed team workflows to measure task allocation efficiency using Excel and presented actionable recommendations",
-        "Identified process inefficiencies and proposed solutions, including resource optimization",
-        "Enhanced task management efficiency by collaborating across departments"
       ]
     }
   ],
@@ -218,10 +172,8 @@
     {
       "title": "Areas",
       "details": [
-        "Financial payment systems, driven by a passion for creating impactful solutions in the banking industry.",
-        "Cloud Engineer",
+        "Data Science & Machine Learning",
         "Backend Development",
-        "Productivity & Life-hacks",
         "Blockchain & Web3"
       ]
     },

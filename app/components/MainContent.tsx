@@ -34,8 +34,8 @@ const MainContent: React.ForwardRefRenderFunction<HTMLDivElement, MainContentPro
       <Archievements archievements={data.achievements} />
       <Technologies technologies={data.technologies} />
       <Education educations={data.educations} />
-      <Projects projects={data.projects} />
       <Work workExperiences={data.workExperiences} />
+      <Projects projects={data.projects} />
       <Certificates certificates={data.certificates} />
       <Interests interests={data.interests} />
     </div>
