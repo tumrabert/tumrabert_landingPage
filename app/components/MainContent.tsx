@@ -13,15 +13,15 @@ import Archievements from "./Archievement";
 // Props typing
 interface MainContentProps {
   data: {
-    intro: any;
-    achievements: any;
-    technologies: any;
-    educations: any;
-    workExperiences: any;
-    projects: any;
-    certificates: any;
-    interests: any;
-    summary: string;
+    intro?: any;
+    achievements?: any;
+    technologies?: any;
+    educations?: any;
+    workExperiences?: any;
+    projects?: any;
+    certificates?: any;
+    interests?: any;
+    summary?: string;
   };
 }
 
@@ -36,7 +36,7 @@ const MainContent: React.ForwardRefRenderFunction<
       className="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl"
     >
       <Intro intros={data.intro} />
-      <Summary summary={data.summary} />
+      <Summary summary={data.summary || ""} />
       <Archievements archievements={data.achievements} />
       <Technologies technologies={data.technologies} />
       <Education educations={data.educations} />
