@@ -7,55 +7,56 @@
     "github": "tumrabert",
     "linkedin": "tumrabert",
     "location": "Bangkok, Thailand",
-    "website": "tumrabertworld.vercel.app/resume"
+    "website": "www.tumrabert.com"
   },
   "achievements": [
-    {"name": "Agentic AI Hackathon",
-    "year": "2025",
-    "details":["Secured the top position in the Agentic AI Hackathon by leveraging the Coinbase Developer Platform.",
-    "Developed an AI chatbot specializing in cryptocurrencies, Web3, and blockchain.",
-    "Integrated real-time crypto price updates and market-moving news alerts."],
-    "url": "",
-    "hide": false}
+    {
+      "name": "Agentic AI Hackathon",
+      "year": "2025",
+      "details": [
+        "Secured the top position by developing a robust software solution under tight deadlines.",
+        "Implemented maintainable, object-oriented code following industry best practices.",
+        "Created RESTful APIs for real-time data integration with external services."
+      ],
+      "url": "",
+      "hide": false
+    }
   ],
-  "summary": "**Software Engineer** with experience in **backend development**, **data processing**, and **machine learning**. Proficient in **Python**, **Flask**, and **FastAPI**, with exposure to cloud platforms like **AWS** and **GCP**. Comfortable working with data using **Pandas**, **SQL**, and **NumPy**, and familiar with building and deploying ML models using **TensorFlow**. Interested in applying practical **software** and **data solutions** to solve real-world problems.",
+  "summary": "Software Engineer with proven expertise in enterprise application development. Proficient in Python and JavaScript with strong knowledge of object-oriented programming and design patterns. Experienced in developing web-based applications and RESTful APIs using modern frameworks. Demonstrated ability to deliver maintainable, reusable code through proper testing and secure coding practices while collaborating effectively in agile environments.",
   "projects": [
     {
-      "name": "Automobile Parts Manufacturing Monitoring System ",
+      "name": "Automobile Parts Manufacturing Monitoring System",
       "details": [
-        "Developed a backend system using Node.js integrated with React (VITE) for a real-time monitoring system in an automobile parts manufacturing facility.",
-
-"Designed and implemented RESTful APIs for data collection, processing, and visualization.",
-
-"Optimized system performance using WebSockets for real-time data updates.",
-
-"Deployed the system on AWS with CI/CD pipelines for automated testing and deployment."
+        "Architected a distributed system using modern web technologies and design patterns.",
+        "Designed RESTful APIs following industry standards for scalability and maintainability.",
+        "Implemented proper error handling and logging for enterprise-grade reliability.",
+        "Utilized CI/CD pipelines on AWS for automated testing and deployment, ensuring high-quality software delivery."
       ],
       "url": "",
       "hide": false,
       "year": "October 2024 - December 2024"
     },
     {
-      "name": "Swine Fat Measurement with Computer Vision",
+      "name": "Web-Based Enterprise Application for Swine Fat Measurement",
       "details": [
-        "Developed an automated system for measuring pig carcass fat thickness using YOLOv8 and Computer Vision.",
-        "Achieved high accuracy with a Mean Absolute Error (MAE) of ±0.43 cm.",
-        "Designed a real-time processing system with a processing rate of 19 FPS.",
-        "Built user-friendly web applications for batch, video, and real-time input using FastAPI and Next.js.",
-        "Collaborated with Betagro to enhance the efficiency of pig processing operations."
+        "Developed an enterprise-grade web application using Python, FastAPI, and Next.js following OOP principles.",
+        "Implemented a distributed system architecture for processing high volumes of data in real-time.",
+        "Created a maintainable and reusable codebase through modular design and comprehensive unit testing.",
+        "Collaborated with business stakeholders to translate requirements into technical specifications.",
+        "Deployed the solution using cloud technologies with proper monitoring and scaling capabilities."
       ],
       "url": "https://github.com/Jinnapat/betagro-swine-fat-measurement-frontend",
       "hide": false,
       "year": "2023-2024"
     },
     {
-      "name": "Enhancing Food Distribution Efficiency with Ant Colony Optimization ",
+      "name": "Distributed System for Delivery Optimization",
       "details": [
-        "Designed an optimized delivery system for Pizza Hub’s cloud kitchens using Ant Colony Optimization (ACO).",
-        "Processed food delivery datasets from Kaggle to calculate optimal routes considering customer demand and delivery distances.",
-        "Built a graph representation of the network, leveraging Python libraries such as NetworkX, Pandas, and Numpy.",
-        "Modeled pheromone-based routing strategies with ACO, iterating parameters for best efficiency.",
-        "Automated data processing with Python and visualized results using Matplotlib."
+        "Designed and implemented a distributed algorithm for route optimization problems.",
+        "Processed large datasets using Python libraries while maintaining efficient memory management.",
+        "Developed a modular, object-oriented solution following software engineering best practices.",
+        "Created data pipelines for ETL processes with proper error handling and validation.",
+        "Implemented comprehensive testing to ensure algorithm accuracy and system reliability."
       ],
       "url": "https://github.com/tumrabert/ACO_restaurant",
       "hide": false,
@@ -67,19 +68,37 @@
       "section": "Programming Languages:",
       "details": [
         "Python (proficient)",
-        "GO",
-        "TypeScript",
-        "Visual Basic .NET"
+        "JavaScript",
+        "TypeScript"
       ]
     },
     {
-      "section": "Frameworks & Libraries:",
+      "section": "Web & Enterprise Applications:",
       "details": [
+        "RESTful APIs",
+        "Web Services",
+        "JSON/XML Schema",
         "Flask",
-        "FastAPI",
-        "TensorFlow",
-        "PyTorch",
-        "OpenCV"
+        "FastAPI"
+      ]
+    },
+    {
+      "section": "Cloud & DevOps:",
+      "details": [
+        "AWS",
+        "GCP",
+        "Azure",
+        "Docker",
+        "CI/CD"
+      ]
+    },
+    {
+      "section": "Database Management:",
+      "details": [
+        "SQL",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB"
       ]
     },
     {
@@ -88,36 +107,7 @@
         "ReactJS",
         "NextJS",
         "JavaScript",
-        "HTML5",
-        "CSS3"
-      ]
-    },
-    {
-      "section": "Cloud & DevOps:",
-      "details": [
-        "AWS",
-        "GCP",
-        "Docker",
-        "Terraform",
-        "Apache Airflow",
-        "CI/CD"
-      ]
-    },
-    {
-      "section": "Database Management:",
-      "details": [
-        "MySQL",
-        "PostgreSQL",
-        "MongoDB"
-      ]
-    },
-    {
-      "section": "Data Analysis & Tools:",
-      "details": [
-        "Pandas",
-        "NumPy",
-        "Matplotlib",
-        "SQL"
+        "HTML5/CSS3"
       ]
     },
     {
@@ -130,16 +120,15 @@
   ],
   "workExperiences": [
     {
-      "position": "AI Agent Developer",
+      "position": "AI Engineer",
       "company": "Avalant Co., Ltd.",
       "url": "https://avlgb.com/",
-      "start": "Febuary 2025",
+      "start": "February 2025",
       "end": "Present",
       "details": [
-        "Developed a visual AI agent automation platform, similar to n8n or Make.com, enabling users to design and orchestrate AI-powered workflows through a drag-and-drop interface",
-        "Created and deployed reusable integrations with external APIs, internal systems, and LLMs (e.g., Gemini, OpenAI, Claude) for use across customer-specific use cases.",
-        "Delivered end-to-end AI automation solutions tailored to enterprise needs, including document processing, chatbot agents, crypto alert bots, and data extract-transform-load (ETL) flows.",
-        "Built AI automation workflows for diverse use cases, such as customer service, internal tooling, and real-time alerts, tailored to client requirements."
+        "Collaborate within an agile team to translate complex business needs into detailed technical specifications and successful implementations.",
+        "Develop bespoke AI agents tailored to customer requirements using the proprietary AutomationX platform, a workflow automation tool similar to n8n.",
+        "Handle the ongoing maintenance and enhancement of the AutomationX platform, focusing on improving performance and integrating with other applications such as LINE, Google Services, and Microsoft Services."
       ]
     },
     {
@@ -149,10 +138,11 @@
       "start": "August 2024",
       "end": "January 2025",
       "details": [
-        " Transformed business requirements into functional implementations using Visual Basic .NET and SQL",
-        "Modified database structures to align with evolving business needs, ensuring efficient data migration and relational integrity",
-        "Developed stored procedures for data retrieval and manipulation",
-        "Migrated legacy data into modern systems while maintaining data integrity"
+        "Transformed complex business requirements into functional implementations using object-oriented programming",
+        "Designed and modified database structures ensuring optimal performance and data integrity",
+        "Developed and maintained enterprise applications following established software engineering processes",
+        "Created detailed technical specifications and documentation for software components",
+        "Performed thorough software testing to ensure quality and compliance with requirements"
       ]
     }
   ],
@@ -164,7 +154,7 @@
       "end_year": "2024",
       "GPAX": "3.02",
       "details": [
-        "Capstone Project: Swine Fat Measurement with Computer Vision-Developed an automated swine fat thickness measurement system using YOLOv8, Computer Vision, and FastAPI, achieving significant accuracy improvements over manual methods."
+        "Capstone Project: Developed an enterprise web application for automated measurement systems using Python, following software engineering best practices and design patterns."
       ]
     }
   ],
@@ -172,9 +162,9 @@
     {
       "title": "Areas",
       "details": [
-        "Data Science & Machine Learning",
-        "Backend Development",
-        "Blockchain & Web3"
+        "Enterprise Application Development",
+        "Distributed Systems",
+        "Software Architecture"
       ]
     },
     {
@@ -187,8 +177,8 @@
     {
       "title": "Reading",
       "details": [
-        "Self-Development",
-        "History",
+        "Software Engineering Best Practices",
+        "Technology Trends",
         "Business"
       ]
     },
@@ -202,28 +192,28 @@
   ],
   "resumeUrl": {
     "sourceLink": "https://github.com/tumrabert/tumrabert_landingPage",
-    "fullVersion": "https://tumrabertworld.vercel.app/resume"
+    "fullVersion": "https://www.tumrabert.com/resume"
   },
   "certificates": [
     {
+      "title": "Microsoft Certified: Azure AI Engineer Associate:",
+      "description": "Earned June 2025, this certification validates expertise in planning, managing, and implementing Azure AI solutions, including generative AI, computer vision, and natural language processing.",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/tumrabert-5394/38E0C26F58EDEE57?sharingId=7305F3F1C185E087"
+    },
+    {
       "title": "Google Cloud Skill Boost",
-      "description": "Earned multiple badges through Google Cloud Skill Boost, demonstrating proficiency in infrastructure building with Terraform and language processing with ML. Highlights include expertise in AI and machine learning, generative AI with Vertex AI, and baseline infrastructure (GCP) setup.",
+      "description": "Earned multiple badges demonstrating proficiency in cloud infrastructure, distributed systems, and enterprise application deployment. Expertise includes infrastructure as code with Terraform and enterprise-grade cloud architecture on GCP.",
       "url": "https://www.cloudskillsboost.google/public_profiles/25d6dcc2-8121-4792-8d28-96a4b71d9dc0"
     },
     {
       "title": "Google Data Analytics",
-      "description": "Expertise in data preparation, processing, and visualization using spreadsheets, SQL, Tableau, and R.",
+      "description": "Expertise in enterprise data preparation, processing, and visualization using SQL and other industry-standard tools. Skills directly applicable to data handling in distributed systems.",
       "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/VS5ACQJ6DV86"
     },
     {
       "title": "ETHGlobal Bangkok Hackathon",
-      "description": "Participated in ETHGlobal Bangkok Hackathon competition, building 'HaveFun(d)'—a fundraising platform with Web3 and Web2 integration, utilizing Hedera as the destination chain.",
+      "description": "Built a web-based enterprise application with distributed architecture, implementing proper API design and following software engineering best practices.",
       "url": "https://drive.google.com/file/d/1AoAqNElWenAZoqjB3XUxxgtr4EZW95Hj/view?usp=sharing"
-    },
-    {
-      "title": "EthPadThai BootCamp",
-      "description": "Bootcamp for individuals interested in Web3, covering basic blockchain knowledge and programming smart contracts.",
-      "url": "https://drive.google.com/file/d/1nxEf0Gbo_tpr6YGKQt36fbIYNOOqC4-j/view?usp=sharing"
     }
   ]
 }
