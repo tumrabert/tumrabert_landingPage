@@ -1,9 +1,9 @@
 // app/resume/page.tsx
-import { Metadata } from 'next';
- 
+import { Metadata } from "next";
+
 export const metadata: Metadata = {
-  title: 'Tanakit Phentun - Data Scientist Resume | Tumrabert',
-  description: 'Explore the professional resume of Tanakit Phentun (Tumrabert), a skilled Data Scientist with expertise in machine learning, data engineering, and software development. Learn about achievements, projects, and skills in applying advanced analytical techniques and solving complex problems to drive innovation and deliver business value.',
+  title: "Tanakit Phentun - Data Scientist Resume | Tumrabert",
+  description: "Tanakit - Ai Engineer Resume",
 };
 
 import React, { Suspense } from "react";
@@ -17,7 +17,7 @@ export default function Page() {
     <div className="bg-white text-black">
       <Header sourceLink={data.resumeUrl.sourceLink} />
       <Suspense fallback={<Spinner />}>
-        <MainContent  data={data} />
+        <MainContent data={data} />
       </Suspense>
     </div>
   );
