@@ -21,23 +21,29 @@ interface MainContentProps {
     projects: any;
     certificates: any;
     interests: any;
-    summary:string;
+    summary: string;
   };
 }
 
 // MainContent Component
-const MainContent: React.ForwardRefRenderFunction<HTMLDivElement, MainContentProps> = ({ data }, ref) => {
+const MainContent: React.ForwardRefRenderFunction<
+  HTMLDivElement,
+  MainContentProps
+> = ({ data }, ref) => {
   return (
-    <div ref={ref} className="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
+    <div
+      ref={ref}
+      className="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl"
+    >
       <Intro intros={data.intro} />
-      <Summary summary={data.summary}/>
+      <Summary summary={data.summary} />
       <Archievements archievements={data.achievements} />
       <Technologies technologies={data.technologies} />
       <Education educations={data.educations} />
       <Work workExperiences={data.workExperiences} />
-      <Projects projects={data.projects} />
+      {/* <Projects projects={data.projects} /> */}
       <Certificates certificates={data.certificates} />
-      <Interests interests={data.interests} />
+      {/* <Interests interests={data.interests} /> */}
     </div>
   );
 };

@@ -15,7 +15,7 @@
       "year": "2025",
       "details": [
         "Secured the top position by developing a robust software solution under tight deadlines.",
-        "Implemented maintainable, object-oriented code following industry best practices.",
+        "Designed and built autonomous AI agents to automate trading strategies in response to real-time stock market data and financial news.",
         "Created RESTful APIs for real-time data integration with external services."
       ],
       "url": "",
@@ -23,46 +23,6 @@
     }
   ],
   "summary": "Software Engineer with proven expertise in enterprise application development. Proficient in Python and JavaScript with strong knowledge of object-oriented programming and design patterns. Experienced in developing web-based applications and RESTful APIs using modern frameworks. Demonstrated ability to deliver maintainable, reusable code through proper testing and secure coding practices while collaborating effectively in agile environments.",
-  "projects": [
-    {
-      "name": "Automobile Parts Manufacturing Monitoring System",
-      "details": [
-        "Architected a distributed system using modern web technologies and design patterns.",
-        "Designed RESTful APIs following industry standards for scalability and maintainability.",
-        "Implemented proper error handling and logging for enterprise-grade reliability.",
-        "Utilized CI/CD pipelines on AWS for automated testing and deployment, ensuring high-quality software delivery."
-      ],
-      "url": "",
-      "hide": false,
-      "year": "October 2024 - December 2024"
-    },
-    {
-      "name": "Web-Based Enterprise Application for Swine Fat Measurement",
-      "details": [
-        "Developed an enterprise-grade web application using Python, FastAPI, and Next.js following OOP principles.",
-        "Implemented a distributed system architecture for processing high volumes of data in real-time.",
-        "Created a maintainable and reusable codebase through modular design and comprehensive unit testing.",
-        "Collaborated with business stakeholders to translate requirements into technical specifications.",
-        "Deployed the solution using cloud technologies with proper monitoring and scaling capabilities."
-      ],
-      "url": "https://github.com/Jinnapat/betagro-swine-fat-measurement-frontend",
-      "hide": false,
-      "year": "2023-2024"
-    },
-    {
-      "name": "Distributed System for Delivery Optimization",
-      "details": [
-        "Designed and implemented a distributed algorithm for route optimization problems.",
-        "Processed large datasets using Python libraries while maintaining efficient memory management.",
-        "Developed a modular, object-oriented solution following software engineering best practices.",
-        "Created data pipelines for ETL processes with proper error handling and validation.",
-        "Implemented comprehensive testing to ensure algorithm accuracy and system reliability."
-      ],
-      "url": "https://github.com/tumrabert/ACO_restaurant",
-      "hide": false,
-      "year": "April 2024"
-    }
-  ],
   "technologies": [
     {
       "section": "Programming Languages:",
@@ -128,7 +88,7 @@
       "details": [
         "Collaborate within an agile team to translate complex business needs into detailed technical specifications and successful implementations.",
         "Develop bespoke AI agents tailored to customer requirements using the proprietary AutomationX platform, a workflow automation tool similar to n8n.",
-        "Handle the ongoing maintenance and enhancement of the AutomationX platform, focusing on improving performance and integrating with other applications such as LINE, Google Services, and Microsoft Services."
+        "Handle the ongoing maintenance and enhancement of the AutomationX platform, focusing on improving performance and integrating with other applications such as LINE, Google Services, Microsoft Services, etc."
       ]
     },
     {
@@ -138,7 +98,7 @@
       "start": "August 2024",
       "end": "January 2025",
       "details": [
-        "Transformed complex business requirements into functional implementations using object-oriented programming",
+        "Translated complex business requirements into functional implementations using object-oriented programming",
         "Designed and modified database structures ensuring optimal performance and data integrity",
         "Developed and maintained enterprise applications following established software engineering processes",
         "Created detailed technical specifications and documentation for software components",
@@ -154,39 +114,9 @@
       "end_year": "2024",
       "GPAX": "3.02",
       "details": [
-        "Capstone Project: Developed an enterprise web application for automated measurement systems using Python, following software engineering best practices and design patterns."
-      ]
-    }
-  ],
-  "interests": [
-    {
-      "title": "Areas",
-      "details": [
-        "Enterprise Application Development",
-        "Distributed Systems",
-        "Software Architecture"
-      ]
-    },
-    {
-      "title": "Freetime",
-      "details": [
-        "Movies & Series",
-        "Reading"
-      ]
-    },
-    {
-      "title": "Reading",
-      "details": [
-        "Software Engineering Best Practices",
-        "Technology Trends",
-        "Business"
-      ]
-    },
-    {
-      "title": "Sports",
-      "details": [
-        "Running (Half-Marathon finisher)",
-        "Gym"
+        "Capstone Project: Web-Based Enterprise Application for Swine Fat Measurement",
+        "Developed a full-stack enterprise application using Python, FastAPI, and Next.js, leveraging Computer Vision to automate the measurement process.",
+        "Architected and deployed a scalable, distributed system on a cloud platform, capable of processing high-volume image data in real-time."
       ]
     }
   ],
@@ -196,7 +126,7 @@
   },
   "certificates": [
     {
-      "title": "Microsoft Certified: Azure AI Engineer Associate:",
+      "title": "Microsoft Certified: Azure AI Engineer Associate",
       "description": "Earned June 2025, this certification validates expertise in planning, managing, and implementing Azure AI solutions, including generative AI, computer vision, and natural language processing.",
       "url": "https://learn.microsoft.com/api/credentials/share/en-us/tumrabert-5394/38E0C26F58EDEE57?sharingId=7305F3F1C185E087"
     },
